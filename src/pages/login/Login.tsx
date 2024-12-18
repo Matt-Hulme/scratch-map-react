@@ -1,4 +1,4 @@
-import { firebaseGoogleSignIn } from '../../../config/firebase/firebaseConfig'
+import { firebaseGoogleSignIn } from '../../config/firebase/firebaseConfig'
 
 export const Login = () => (
   <div className="bg-[#2e6f40] h-[100vh] flex flex-col items-center justify-center space-y-10 relative">
