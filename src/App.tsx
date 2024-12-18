@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { User } from 'firebase/auth'
 import { auth } from './config/firebase/firebaseConfig'
-import { Login } from './common/pages/login'
-import { Home } from './common/pages/home/Home'
+import { Login } from './pages/login'
+import { Home } from './pages/home/Home'
 
 export const App = () => {
   const [user, setUser] = useState<User | null>(null)
