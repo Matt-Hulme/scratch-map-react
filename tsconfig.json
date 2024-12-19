@@ -1,5 +1,7 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "jsx": "react"
+  },
   "include": ["src/**/*"],
   "references": [
     { "path": "./tsconfig.app.json" },
