@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { GoogleMap, useLoadScript } from '@react-google-maps/api'
 
 const center = {
@@ -19,12 +20,37 @@ export const Map = () => {
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string,
   })
 
+  const [selectedFeatures, setSelectedFeatures] = useState<string[]>([])
+
   if (!isLoaded) {
     return (
       <div className="bg-[#2e6f40] h-[100vh] flex flex-col items-center justify-center space-y-10 relative">
         <div>Loading Map...</div>
       </div>
     )
+  }
+
+  const handleFeatureClick = (
+    feature: google.maps.Data.Feature,
+    map: google.maps.Map
+  ) => {
+    const featureId = feature.getId() as string
+
+    setSelectedFeatures((prevSelectedFeatures) => {
+      const featureIndex = prevSelectedFeatures.indexOf(featureId)
+      if (featureIndex > -1) {
+        console.log('Feature is already selected, remove it')
+        map.data.revertStyle(feature)
+        return prevSelectedFeatures.filter((id) => id !== featureId)
+      } else {
+        console.log('Feature is not selected, add it')
+        map.data.overrideStyle(feature, {
+          fillColor: '#FF0000',
+          fillOpacity: 0.6,
+        })
+        return [...prevSelectedFeatures, featureId]
+      }
+    })
   }
 
   return (
@@ -47,12 +73,7 @@ export const Map = () => {
         }))
         map.data.addListener('click', (event: google.maps.Data.MouseEvent) => {
           if (event.feature) {
-            console.log(event?.feature)
-            map.data.revertStyle()
-            map.data.overrideStyle(event?.feature, {
-              fillColor: '#FF0000',
-              fillOpacity: 0.6,
-            })
+            handleFeatureClick(event.feature, map)
           }
         })
       }}
