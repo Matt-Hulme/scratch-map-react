@@ -12,8 +12,7 @@ const mapContainerStyle = {
   height: '80%',
 }
 
-const usStatesGeoJson = 'src/assets/us-states.geojson'
-// const countriesGeoJson = 'src/assets/countries.geojson'
+const combinedGeoJson = 'src/assets/combined.geojson'
 
 export const Map = () => {
   const { isLoaded } = useLoadScript({
@@ -39,30 +38,22 @@ export const Map = () => {
         mapId,
       }}
       onLoad={(map) => {
-        map.data.loadGeoJson(usStatesGeoJson)
-        // map.data.loadGeoJson(countriesGeoJson)
-        map.data.setStyle((feature) => {
-          const type = feature.getProperty('type')
-          if (type === 'State') {
-            return {
-              strokeColor: '#ABABAB',
-              strokeWeight: 0.7,
-              fillColor: 'transparent',
-            }
-          } else {
-            return {
-              strokeColor: '#0000FF',
-              strokeWeight: 0.7,
-              fillColor: 'transparent',
-            }
-          }
-        })
+        map.data.loadGeoJson(combinedGeoJson)
+
+        map.data.setStyle(() => ({
+          strokeColor: '#000000',
+          strokeWeight: 0.7,
+          fillColor: 'transparent',
+        }))
         map.data.addListener('click', (event: google.maps.Data.MouseEvent) => {
-          map.data.revertStyle()
-          map.data.overrideStyle(event.feature, {
-            fillColor: '#FF0000',
-            fillOpacity: 0.6,
-          })
+          if (event.feature) {
+            console.log(event?.feature)
+            map.data.revertStyle()
+            map.data.overrideStyle(event?.feature, {
+              fillColor: '#FF0000',
+              fillOpacity: 0.6,
+            })
+          }
         })
       }}
     />
