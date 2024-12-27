@@ -1,5 +1,5 @@
 import { FirebaseError, initializeApp } from 'firebase/app'
-// Import necessary Firebase modules for authentication and app initialization.
+import { getDatabase } from 'firebase/database'
 import {
   getAuth,
   GoogleAuthProvider,
@@ -9,7 +9,6 @@ import {
   updateProfile,
 } from 'firebase/auth'
 
-// Define the Firebase configuration object with your project's credentials.
 export const firebaseConfig = {
   apiKey: 'AIzaSyCUVu52kQTtFTOLzuZh0a2W_sIdXVze6sc',
   authDomain: 'scratch-map-7d0bf.firebaseapp.com',
@@ -18,6 +17,7 @@ export const firebaseConfig = {
   messagingSenderId: '224895130364',
   appId: '1:224895130364:web:3209f225470f7986805579',
   measurementId: 'G-YL6F96MYTV',
+  databaseUrl: 'https://scratch-map-7d0bf-default-rtdb.firebaseio.com',
 }
 
 const app = initializeApp(firebaseConfig)
@@ -63,4 +63,6 @@ const firebaseSignOut = async () => {
   return response
 }
 
-export { auth, firebaseGoogleSignIn, firebaseSignOut }
+const database = getDatabase(app)
+
+export { auth, database, firebaseGoogleSignIn, firebaseSignOut }
