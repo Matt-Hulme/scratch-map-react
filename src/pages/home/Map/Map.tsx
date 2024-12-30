@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { GoogleMap, useLoadScript } from '@react-google-maps/api'
 import { ref, get, set } from 'firebase/database'
 import { database, auth } from '../../../config/firebase/firebaseConfig'
+import { FeatureCollection, Feature } from 'geojson'
 
 const center = {
   lat: 39.8283,
@@ -15,13 +16,11 @@ const mapContainerStyle = {
   height: '80%',
 }
 
-const combinedGeoJson = 'src/assets/combined.geojson'
-
 export const Map = () => {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string,
   })
-
+  const [continentCount, setContinentCount] = useState(0)
   const [selectedFeatures, setSelectedFeatures] = useState<{
     ids: string[]
     names: string[]
@@ -63,9 +62,10 @@ export const Map = () => {
     [selectedFeatures.ids]
   )
 
+  // Load selected features from database
   useEffect(() => {
     const loadSelectedFeatures = async () => {
-      const userId = auth.currentUser?.uid
+      const userId = auth?.currentUser?.uid
       if (userId) {
         const dbRef = ref(database, `users/${userId}`)
         const snapshot = await get(dbRef)
@@ -77,11 +77,35 @@ export const Map = () => {
     loadSelectedFeatures()
   }, [])
 
+  // Style selected countries on initial load
   useEffect(() => {
     if (mapRef.current) {
       styleSelectedCountriesInitial(mapRef.current)
     }
   }, [styleSelectedCountriesInitial])
+
+  // Fetch and parse the GeoJSON data
+  useEffect(() => {
+    const fetchGeoJsonData = async () => {
+      const response = await fetch('/src/assets/combined-final.geojson')
+      const geoJson: FeatureCollection = await response.json()
+      const continents = new Set<string>()
+
+      geoJson.features.forEach((feature: Feature) => {
+        const featureId = feature.id as string
+        if (selectedFeatures.ids.includes(featureId)) {
+          const properties = feature?.properties ?? {}
+          const continent = properties.Continent
+          if (continent) {
+            continents.add(continent)
+          }
+        }
+      })
+
+      setContinentCount(continents.size)
+    }
+    fetchGeoJsonData()
+  }, [selectedFeatures])
 
   if (!isLoaded) {
     return (
@@ -134,7 +158,7 @@ export const Map = () => {
         }}
         onLoad={(map) => {
           mapRef.current = map
-          map.data.loadGeoJson(combinedGeoJson)
+          map.data.loadGeoJson('/src/assets/combined-final.geojson')
 
           map.data.setStyle(() => ({
             strokeColor: '#000000',
@@ -154,22 +178,28 @@ export const Map = () => {
           )
         }}
       />
-      <div className="gap-4 flex flex-col items-center w-full">
-        <h3 className="text-white">{auth?.currentUser?.displayName}</h3>
-        <div className="w-[50%] flex flex-row items-center justify-between">
+      <div className="min-w-[25%] flex flex-row items-center justify-between">
+        <div className="bg-white p-2 rounded-md">
+          <h3 className="text-black">{`Continents: ${continentCount}`}</h3>
           <button
-            className="bg-red-300 rounded-md border-black border-[2px] border-solid w-[125px] py-1"
-            onClick={onClear}
-          >
-            Clear
-          </button>
-          <button
-            className="bg-green-400 rounded-md border-black border-[2px] border-solid w-[125px] py-1"
-            onClick={onSave}
-          >
-            Save
-          </button>
+            className="bg-white rounded-md border-black border-[2px] border-solid w-[125px] py-1"
+            onClick={() => {}}
+          ></button>
         </div>
+      </div>
+      <div className="min-w-[25%] flex flex-row items-center justify-between">
+        <button
+          className="bg-red-300 rounded-md border-black border-[2px] border-solid w-[125px] py-1"
+          onClick={onClear}
+        >
+          Clear
+        </button>
+        <button
+          className="bg-green-400 rounded-md border-black border-[2px] border-solid w-[125px] py-1"
+          onClick={onSave}
+        >
+          Save
+        </button>
       </div>
     </>
   )
