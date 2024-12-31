@@ -211,7 +211,7 @@ export const Map = () => {
       <GoogleMap
         center={center}
         mapContainerClassName="h-[60vh] w-[80vw] justify-self-center"
-        zoom={2}
+        zoom={2.5}
         options={{
           clickableIcons: false,
           disableDefaultUI: true,
