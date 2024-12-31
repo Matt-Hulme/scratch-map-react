@@ -62,8 +62,8 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
   }, [selectedFeatures])
 
   return (
-    <div className="md:min-w-[300px] lg:min-w-[700px] min-w-[200px] flex flex-col lg:flex-row lg:justify-between lg:space-y-0 space-y-4 justify-self-center lg:space-x-4 text-black">
-      <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
+    <div className="md:w-[600px] lg:w-[700px] w-[200px] min-h-[90px] flex flex-col md:flex-row md:justify-between md:space-y-0 space-y-4 self-center md:space-x-4 text-black overflow-y-hidden md:self-center">
+      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
         <span className="h2">{`Continents: ${selectedContinentCount}`}</span>
         {!!selectedContinentCount && (
           <>
@@ -77,18 +77,19 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               }
               onClick={() => onPanelExpand(0)}
             />
+            {isPanelExpanded[0] && (
+              <List className="max-h-[125px] overflow-y-auto">
+                {Array.from(selectedFeatures.continents).map((name) => (
+                  <ListItem key={name}>
+                    <span className="line-clamp-1">{name}</span>
+                  </ListItem>
+                ))}
+              </List>
+            )}
           </>
         )}
-        <List>
-          {isPanelExpanded[0] &&
-            Array.from(selectedFeatures.continents).map((name) => (
-              <ListItem key={name}>
-                <span className="line-clamp-1">{name}</span>
-              </ListItem>
-            ))}
-        </List>
       </div>
-      <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
+      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
         <span className="h2">{`Countries: ${selectedCountryCount}`}</span>
         {!!selectedCountryCount && (
           <>
@@ -102,18 +103,19 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               }
               onClick={() => onPanelExpand(1)}
             />
+            {isPanelExpanded[1] && (
+              <List className="max-h-[125px] overflow-y-auto">
+                {Array.from(selectedFeatures.countries).map((name) => (
+                  <ListItem key={name}>
+                    <span className="line-clamp-1">{name}</span>
+                  </ListItem>
+                ))}
+              </List>
+            )}
           </>
         )}
-        <List>
-          {isPanelExpanded[1] &&
-            Array.from(selectedFeatures.countries).map((name) => (
-              <ListItem key={name}>
-                <span className="line-clamp-1">{name}</span>
-              </ListItem>
-            ))}
-        </List>
       </div>
-      <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
+      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
         <span className="h2">{`States: ${selectedStateCount}`}</span>
         {!!selectedStateCount && (
           <>
@@ -127,16 +129,17 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               }
               onClick={() => onPanelExpand(2)}
             />
+            {isPanelExpanded[2] && (
+              <List className="max-h-[125px] overflow-y-auto">
+                {Array.from(selectedFeatures.states).map((name) => (
+                  <ListItem key={name}>
+                    <span className="line-clamp-1">{name}</span>
+                  </ListItem>
+                ))}
+              </List>
+            )}
           </>
         )}
-        <List>
-          {isPanelExpanded[2] &&
-            Array.from(selectedFeatures.states).map((name) => (
-              <ListItem key={name}>
-                <span className="line-clamp-1">{name}</span>
-              </ListItem>
-            ))}
-        </List>
       </div>
     </div>
   )
