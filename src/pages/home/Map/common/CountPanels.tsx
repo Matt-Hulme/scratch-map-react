@@ -73,7 +73,7 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               aria-label="See selected Continents list"
               className="lg:w-fit self-center"
               icon={
-                isPanelExpanded[0] ? <ChevronDownIcon /> : <ChevronUpIcon />
+                isPanelExpanded[0] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
               onClick={() => onPanelExpand(0)}
             />
@@ -98,7 +98,7 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               aria-label="See selected Countries list"
               className="lg:w-fit self-center"
               icon={
-                isPanelExpanded[1] ? <ChevronDownIcon /> : <ChevronUpIcon />
+                isPanelExpanded[1] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
               onClick={() => onPanelExpand(1)}
             />
@@ -123,7 +123,7 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               aria-label="See selected States list"
               className="lg:w-fit self-center"
               icon={
-                isPanelExpanded[2] ? <ChevronDownIcon /> : <ChevronUpIcon />
+                isPanelExpanded[2] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
               onClick={() => onPanelExpand(2)}
             />
