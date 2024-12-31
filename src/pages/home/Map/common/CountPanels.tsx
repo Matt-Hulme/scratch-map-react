@@ -29,7 +29,7 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
   // Fetch and parse the GeoJSON data to determine counts
   useEffect(() => {
     const fetchGeoJsonData = async () => {
-      const response = await fetch('/src/assets/combined-final.geojson')
+      const response = await fetch('assets/combined-final.geojson')
       const geoJson: FeatureCollection = await response.json()
       const continents = new Set<string>()
       const countries = new Set<string>()
