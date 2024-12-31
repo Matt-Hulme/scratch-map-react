@@ -9,7 +9,7 @@ interface MapActions {
 }
 
 export const MapActions = ({ onMapClear, onMapSave, user }: MapActions) => (
-  <div className="lg:w-[350px] w-[200px] mx-auto flex flex-row items-center justify-between">
+  <div className="lg:w-[350px] w-[200px] mx-auto flex flex-row items-center justify-between min-h-[48px]">
     <Button colorScheme="red" size="lg" onClick={onMapClear}>
       Clear
     </Button>

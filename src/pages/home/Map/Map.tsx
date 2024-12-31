@@ -200,17 +200,17 @@ export const Map = () => {
 
   if (!isLoaded) {
     return (
-      <div className="bg-[#2e6f40] h-[100vh] flex flex-col items-center justify-center space-y-10 relative">
+      <div className="bg-[#2e6f40] flex flex-col items-center justify-center space-y-10 relative">
         <div>Loading Map...</div>
       </div>
     )
   }
 
   return (
-    <div className="w-full space-y-4 px-2 lg:px-10">
+    <div className="flex flex-col space-y-4 px-2 lg:px-10 flex-grow">
       <GoogleMap
         center={center}
-        mapContainerClassName="h-[60vh] w-[80vw] justify-self-center"
+        mapContainerClassName="min-h-[70vh] md:min-h-[50vh] flex-grow w-full"
         zoom={2.5}
         options={{
           clickableIcons: false,

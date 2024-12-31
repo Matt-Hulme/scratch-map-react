@@ -14634,7 +14634,7 @@
       "properties": {
         "name": "Russia",
         "type": "Country",
-        "Continent": "Europe/Asia",
+        "Continent": "Europe",
         "Country": "Russia"
       },
       "geometry": {
@@ -16688,7 +16688,7 @@
       "properties": {
         "name": "Turkey",
         "type": "Country",
-        "Continent": "Europe/Asia",
+        "Continent": "Asia",
         "Country": "Turkey"
       },
       "geometry": {
