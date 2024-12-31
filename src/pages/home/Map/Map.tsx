@@ -214,7 +214,7 @@ export const Map = () => {
         }}
         onLoad={(map) => {
           mapRef.current = map
-          map.data.loadGeoJson('/src/assets/combined-final.geojson')
+          map.data.loadGeoJson('public/assets/combined-final.geojson')
 
           map.data.setStyle(() => ({
             strokeColor: '#000000',
