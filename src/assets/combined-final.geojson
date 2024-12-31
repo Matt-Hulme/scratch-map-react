@@ -8,7 +8,7 @@
         "name": "Alabama",
         "density": 94.65,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -59,7 +59,7 @@
         "name": "Alaska",
         "density": 1.264,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1305,7 +1305,7 @@
         "name": "Arizona",
         "density": 57.05,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1355,7 +1355,7 @@
         "name": "Arkansas",
         "density": 56.43,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1410,7 +1410,7 @@
         "name": "California",
         "density": 241.7,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1521,7 +1521,7 @@
         "name": "Colorado",
         "density": 49.33,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1555,7 +1555,7 @@
         "name": "Connecticut",
         "density": 739.1,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1589,7 +1589,7 @@
         "name": "Delaware",
         "density": 464.3,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1620,7 +1620,7 @@
         "name": "District of Columbia",
         "density": 10065,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1643,7 +1643,7 @@
         "name": "Florida",
         "density": 353.4,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1739,7 +1739,7 @@
         "name": "Georgia",
         "density": 169.5,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1808,7 +1808,7 @@
         "name": "Hawaii",
         "density": 214.1,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1893,7 +1893,7 @@
         "name": "Idaho",
         "density": 19.15,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -1977,7 +1977,7 @@
         "name": "Illinois",
         "density": 231.5,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2062,7 +2062,7 @@
         "name": "Indiana",
         "density": 181.7,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2126,7 +2126,7 @@
         "name": "Iowa",
         "density": 54.81,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2194,7 +2194,7 @@
         "name": "Kansas",
         "density": 35.09,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2225,7 +2225,7 @@
         "name": "Kentucky",
         "density": 110,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2318,7 +2318,7 @@
         "name": "Louisiana",
         "density": 105,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2412,7 +2412,7 @@
         "name": "Maine",
         "density": 43.04,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2496,7 +2496,7 @@
         "name": "Maryland",
         "density": 596.3,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2584,7 +2584,7 @@
         "name": "Massachusetts",
         "density": 840.2,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2637,7 +2637,7 @@
         "name": "Michigan",
         "density": 173.9,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2821,7 +2821,7 @@
         "name": "Minnesota",
         "density": 67.14,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2922,7 +2922,7 @@
         "name": "Mississippi",
         "density": 63.5,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -2986,7 +2986,7 @@
         "name": "Missouri",
         "density": 87.26,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3057,7 +3057,7 @@
         "name": "Montana",
         "density": 6.858,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3127,7 +3127,7 @@
         "name": "Nebraska",
         "density": 23.97,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3174,7 +3174,7 @@
         "name": "Nevada",
         "density": 24.8,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3213,7 +3213,7 @@
         "name": "New Hampshire",
         "density": 147,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3259,7 +3259,7 @@
         "name": "New Jersey",
         "density": 1189,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3309,7 +3309,7 @@
         "name": "New Mexico",
         "density": 17.16,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3344,7 +3344,7 @@
         "name": "New York",
         "density": 412.3,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3430,7 +3430,7 @@
         "name": "North Carolina",
         "density": 198.2,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3509,7 +3509,7 @@
         "name": "North Dakota",
         "density": 9.916,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3543,7 +3543,7 @@
         "name": "Ohio",
         "density": 281.9,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3608,7 +3608,7 @@
         "name": "Oklahoma",
         "density": 55.22,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3671,7 +3671,7 @@
         "name": "Oregon",
         "density": 40.33,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3745,7 +3745,7 @@
         "name": "Pennsylvania",
         "density": 284.3,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3796,7 +3796,7 @@
         "name": "Rhode Island",
         "density": 1006,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3835,7 +3835,7 @@
         "name": "South Carolina",
         "density": 155.4,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3897,7 +3897,7 @@
         "name": "South Dakota",
         "density": 98.07,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -3944,7 +3944,7 @@
         "name": "Tennessee",
         "density": 88.08,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4005,7 +4005,7 @@
         "name": "Texas",
         "density": 98.07,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4175,7 +4175,7 @@
         "name": "Utah",
         "density": 34.3,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4205,7 +4205,7 @@
         "name": "Vermont",
         "density": 67.73,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4251,7 +4251,7 @@
         "name": "Virginia",
         "density": 204.5,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4359,7 +4359,7 @@
         "name": "Washington",
         "density": 102.6,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4459,7 +4459,7 @@
         "name": "West Virginia",
         "density": 77.06,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4542,7 +4542,7 @@
         "name": "Wisconsin",
         "density": 105.2,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4635,7 +4635,7 @@
         "name": "Wyoming",
         "density": 5.851,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {
@@ -4666,7 +4666,7 @@
         "name": "Puerto Rico",
         "density": 1082,
         "type": "State",
-        "Country": "USA",
+        "Country": "United States of America",
         "Continent": "North America"
       },
       "geometry": {

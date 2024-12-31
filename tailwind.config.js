@@ -9,6 +9,10 @@ export default {
       fontSize: {
         h1: '64px',
         h2: '32px',
+        h3: '24px',
+      },
+      fontWeight: {
+        bold: '700',
       },
     },
   },
@@ -19,10 +23,16 @@ export default {
           fontFamily: '"Archivo Narrow"',
           fontSize: '64px',
           fontStyle: 'normal',
+          fontWeight: '700',
         },
         '.h2': {
           fontFamily: '"Archivo Narrow"',
           fontSize: '32px',
+          fontStyle: 'normal',
+        },
+        '.h3': {
+          fontFamily: '"Archivo Narrow"',
+          fontSize: '24px',
           fontStyle: 'normal',
         },
       })
