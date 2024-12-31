@@ -156,7 +156,6 @@ export const Map = () => {
     [selectedFeatures.ids]
   )
 
-  // Load selected features from database
   useEffect(() => {
     const loadSelectedFeatures = async () => {
       const userId = auth?.currentUser?.uid
@@ -177,14 +176,12 @@ export const Map = () => {
     loadSelectedFeatures()
   }, [])
 
-  // Style selected countries on initial load
   useEffect(() => {
     if (mapRef.current) {
       styleSelectedCountriesInitial(mapRef.current)
     }
   }, [styleSelectedCountriesInitial])
 
-  // Auth useEffect
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       setUser(user)
