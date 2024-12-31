@@ -27,7 +27,6 @@ export const Map = () => {
     countries: new Set(),
     states: new Set(),
   })
-  console.log('selectedFeatures', selectedFeatures)
   const mapRef = useRef<google.maps.Map | null>(null)
   const [user, setUser] = useState<User | null>(null)
   const [featuresLoaded, setFeaturesLoaded] = useState(false)
@@ -103,6 +102,12 @@ export const Map = () => {
         if (featureContinent) newContinents.add(featureContinent)
         if (featureCountry) newCountries.add(featureCountry)
         if (featureType === 'State') newStates.add(featureName)
+
+        map.data.overrideStyle(feature, {
+          fillColor: '#2E6F40',
+          fillOpacity: 0.6,
+        })
+
         return {
           ids: [...prevSelectedFeatures.ids, featureId],
           continents: newContinents,
