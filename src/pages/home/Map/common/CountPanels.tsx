@@ -4,6 +4,8 @@ import { Feature, FeatureCollection } from 'geojson'
 import { useEffect, useState } from 'react'
 
 interface CountPanelsProps {
+  isPanelExpanded: boolean[]
+  onPanelExpandChange: (index: number) => void
   selectedFeatures: {
     ids: string[]
     continents: Set<string>
@@ -12,19 +14,14 @@ interface CountPanelsProps {
   }
 }
 
-export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
-  const [isPanelExpanded, setIsPanelExpanded] = useState([false, false, false])
+export const CountPanels = ({
+  isPanelExpanded,
+  onPanelExpandChange,
+  selectedFeatures,
+}: CountPanelsProps) => {
   const [selectedContinentCount, setSelectedContinentCount] = useState(0)
   const [selectedCountryCount, setSelectedCountryCount] = useState(0)
   const [selectedStateCount, setSelectedStateCount] = useState(0)
-
-  const onPanelExpand = (index: number) => {
-    setIsPanelExpanded((prevIsPanelExpanded) => {
-      const updatedIsPanelExpanded = [...prevIsPanelExpanded]
-      updatedIsPanelExpanded[index] = !updatedIsPanelExpanded[index]
-      return updatedIsPanelExpanded
-    })
-  }
 
   useEffect(() => {
     const fetchGeoJsonData = async () => {
@@ -63,7 +60,11 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
 
   return (
     <div className="md:w-[600px] lg:w-[700px] w-[200px] min-h-[90px] flex flex-col md:flex-row md:justify-between md:space-y-0 space-y-4 self-center md:space-x-4 text-black overflow-y-hidden md:self-center">
-      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
+      <div
+        className={`bg-white rounded-md flex-1 flex flex-col ${
+          !isPanelExpanded[0] && 'h-fit'
+        }`}
+      >
         <span className="h2">{`Continents: ${selectedContinentCount}`}</span>
         {!!selectedContinentCount && (
           <>
@@ -75,10 +76,10 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               icon={
                 isPanelExpanded[0] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
-              onClick={() => onPanelExpand(0)}
+              onClick={() => onPanelExpandChange(0)}
             />
             {isPanelExpanded[0] && (
-              <List className="max-h-[125px] overflow-y-auto">
+              <List className="h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.continents).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>
@@ -89,7 +90,11 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
           </>
         )}
       </div>
-      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
+      <div
+        className={`bg-white rounded-md flex-1 flex flex-col ${
+          !isPanelExpanded[1] && 'h-fit'
+        }`}
+      >
         <span className="h2">{`Countries: ${selectedCountryCount}`}</span>
         {!!selectedCountryCount && (
           <>
@@ -101,10 +106,10 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               icon={
                 isPanelExpanded[1] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
-              onClick={() => onPanelExpand(1)}
+              onClick={() => onPanelExpandChange(1)}
             />
             {isPanelExpanded[1] && (
-              <List className="max-h-[125px] overflow-y-auto">
+              <List className="h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.countries).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>
@@ -115,7 +120,11 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
           </>
         )}
       </div>
-      <div className="bg-white rounded-md flex-1 flex flex-col h-fit">
+      <div
+        className={`bg-white rounded-md flex-1 flex flex-col h-full ${
+          !isPanelExpanded[2] && 'h-fit'
+        }`}
+      >
         <span className="h2">{`States: ${selectedStateCount}`}</span>
         {!!selectedStateCount && (
           <>
@@ -127,10 +136,10 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
               icon={
                 isPanelExpanded[2] ? <ChevronUpIcon /> : <ChevronDownIcon />
               }
-              onClick={() => onPanelExpand(2)}
+              onClick={() => onPanelExpandChange(2)}
             />
             {isPanelExpanded[2] && (
-              <List className="max-h-[125px] overflow-y-auto">
+              <List className="h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.states).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>

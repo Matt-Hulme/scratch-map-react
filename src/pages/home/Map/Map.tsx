@@ -16,6 +16,7 @@ export const Map = () => {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string,
   })
+  const [isPanelExpanded, setIsPanelExpanded] = useState([false, false, false])
   const [selectedFeatures, setSelectedFeatures] = useState<{
     ids: string[]
     continents: Set<string>
@@ -92,12 +93,36 @@ export const Map = () => {
           newContinents.delete(featureContinent)
         }
 
-        return {
+        const updatedSelectedFeatures = {
           ids: prevSelectedFeatures.ids.filter((id) => id !== featureId),
           continents: newContinents,
           countries: newCountries,
           states: newStates,
         }
+
+        if (updatedSelectedFeatures.continents.size === 0) {
+          setIsPanelExpanded((prevIsPanelExpanded) => {
+            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+            updatedIsPanelExpanded[0] = false
+            return updatedIsPanelExpanded
+          })
+        }
+        if (updatedSelectedFeatures.countries.size === 0) {
+          setIsPanelExpanded((prevIsPanelExpanded) => {
+            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+            updatedIsPanelExpanded[1] = false
+            return updatedIsPanelExpanded
+          })
+        }
+        if (updatedSelectedFeatures.states.size === 0) {
+          setIsPanelExpanded((prevIsPanelExpanded) => {
+            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+            updatedIsPanelExpanded[2] = false
+            return updatedIsPanelExpanded
+          })
+        }
+
+        return updatedSelectedFeatures
       } else {
         if (featureContinent) newContinents.add(featureContinent)
         if (featureCountry) newCountries.add(featureCountry)
@@ -133,6 +158,7 @@ export const Map = () => {
       countries: new Set(),
       states: new Set(),
     })
+    setIsPanelExpanded([false, false, false])
   }
 
   const onMapSave = async () => {
@@ -146,6 +172,14 @@ export const Map = () => {
       })
       alert('Map saved!')
     }
+  }
+
+  const onPanelExpandChange = (index: number) => {
+    setIsPanelExpanded((prevIsPanelExpanded) => {
+      const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+      updatedIsPanelExpanded[index] = !updatedIsPanelExpanded[index]
+      return updatedIsPanelExpanded
+    })
   }
 
   const styleSelectedCountriesInitial = useCallback(
@@ -210,7 +244,7 @@ export const Map = () => {
     <div className="flex flex-col space-y-4 px-2 lg:px-10 flex-grow">
       <GoogleMap
         center={center}
-        mapContainerClassName="min-h-[70vh] md:min-h-[50vh] flex-grow w-full"
+        mapContainerClassName="min-h-[70vh] md:min-h-[40vh] flex-grow w-full"
         zoom={2.5}
         options={{
           clickableIcons: false,
@@ -242,7 +276,11 @@ export const Map = () => {
         }}
       />
       <MapActions onMapClear={onMapClear} onMapSave={onMapSave} user={user} />
-      <CountPanels selectedFeatures={selectedFeatures} />
+      <CountPanels
+        isPanelExpanded={isPanelExpanded}
+        onPanelExpandChange={onPanelExpandChange}
+        selectedFeatures={selectedFeatures}
+      />
     </div>
   )
 }

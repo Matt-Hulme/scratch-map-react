@@ -8508,7 +8508,7 @@
       "properties": {
         "name": "Northern Cyprus",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Northern Cyprus"
       },
       "geometry": {
@@ -8541,7 +8541,7 @@
       "properties": {
         "name": "Cyprus",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Cyprus"
       },
       "geometry": {
@@ -9288,7 +9288,7 @@
       "properties": {
         "name": "Fiji",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Oceania",
         "Country": "Fiji"
       },
       "geometry": {
@@ -9337,7 +9337,7 @@
       "properties": {
         "name": "Falkland Islands",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "Falkland Islands"
       },
       "geometry": {
@@ -9442,7 +9442,7 @@
       "properties": {
         "name": "Gabon",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Gabon"
       },
       "geometry": {
@@ -9652,7 +9652,7 @@
       "properties": {
         "name": "Guinea",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Guinea"
       },
       "geometry": {
@@ -9739,7 +9739,7 @@
       "properties": {
         "name": "Gambia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Gambia"
       },
       "geometry": {
@@ -9772,7 +9772,7 @@
       "properties": {
         "name": "Guinea Bissau",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Guinea Bissau"
       },
       "geometry": {
@@ -9808,7 +9808,7 @@
       "properties": {
         "name": "Equatorial Guinea",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Equatorial Guinea"
       },
       "geometry": {
@@ -10110,7 +10110,7 @@
       "properties": {
         "name": "French Guiana",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "French Guiana"
       },
       "geometry": {
@@ -10146,7 +10146,7 @@
       "properties": {
         "name": "Guyana",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "Guyana"
       },
       "geometry": {
@@ -11280,7 +11280,7 @@
       "properties": {
         "name": "Jordan",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Jordan"
       },
       "geometry": {
@@ -11408,7 +11408,7 @@
       "properties": {
         "name": "Kazakhstan",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Europe",
         "Country": "Kazakhstan"
       },
       "geometry": {
@@ -11751,7 +11751,7 @@
       "properties": {
         "name": "Kuwait",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Kuwait"
       },
       "geometry": {
@@ -11831,7 +11831,7 @@
       "properties": {
         "name": "Lebanon",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Lebanon"
       },
       "geometry": {
@@ -11859,7 +11859,7 @@
       "properties": {
         "name": "Liberia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Liberia"
       },
       "geometry": {
@@ -11903,7 +11903,7 @@
       "properties": {
         "name": "Libya",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Libya"
       },
       "geometry": {
@@ -12003,7 +12003,7 @@
       "properties": {
         "name": "Lesotho",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Lesotho"
       },
       "geometry": {
@@ -12256,7 +12256,7 @@
       "properties": {
         "name": "Madagascar",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Madagascar"
       },
       "geometry": {
@@ -12543,7 +12543,7 @@
       "properties": {
         "name": "Mali",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Mali"
       },
       "geometry": {
@@ -12850,7 +12850,7 @@
       "properties": {
         "name": "Mozambique",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Mozambique"
       },
       "geometry": {
@@ -12944,7 +12944,7 @@
       "properties": {
         "name": "Mauritania",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Mauritania"
       },
       "geometry": {
@@ -13000,7 +13000,7 @@
       "properties": {
         "name": "Malawi",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Malawi"
       },
       "geometry": {
@@ -13130,7 +13130,7 @@
       "properties": {
         "name": "Namibia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Namibia"
       },
       "geometry": {
@@ -13191,7 +13191,7 @@
       "properties": {
         "name": "New Caledonia",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Oceania",
         "Country": "New Caledonia"
       },
       "geometry": {
@@ -13221,7 +13221,7 @@
       "properties": {
         "name": "Niger",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Niger"
       },
       "geometry": {
@@ -13719,7 +13719,7 @@
       "properties": {
         "name": "Oman",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Oman"
       },
       "geometry": {
@@ -14187,7 +14187,7 @@
       "properties": {
         "name": "Papua New Guinea",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Oceania",
         "Country": "Papua New Guinea"
       },
       "geometry": {
@@ -14497,7 +14497,7 @@
       "properties": {
         "name": "Paraguay",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "Paraguay"
       },
       "geometry": {
@@ -14547,7 +14547,7 @@
       "properties": {
         "name": "Qatar",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Qatar"
       },
       "geometry": {
@@ -15299,7 +15299,7 @@
       "properties": {
         "name": "Rwanda",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Rwanda"
       },
       "geometry": {
@@ -15329,7 +15329,7 @@
       "properties": {
         "name": "Western Sahara",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Western Sahara"
       },
       "geometry": {
@@ -15467,7 +15467,7 @@
       "properties": {
         "name": "Sudan",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Sudan"
       },
       "geometry": {
@@ -15563,7 +15563,7 @@
       "properties": {
         "name": "South Sudan",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "South Sudan"
       },
       "geometry": {
@@ -15643,7 +15643,7 @@
       "properties": {
         "name": "Senegal",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Senegal"
       },
       "geometry": {
@@ -15704,7 +15704,7 @@
       "properties": {
         "name": "Solomon Islands",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Oceania",
         "Country": "Solomon Islands"
       },
       "geometry": {
@@ -15776,7 +15776,7 @@
       "properties": {
         "name": "Sierra Leone",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Sierra Leone"
       },
       "geometry": {
@@ -15852,7 +15852,7 @@
       "properties": {
         "name": "Somaliland",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Somaliland"
       },
       "geometry": {
@@ -15893,7 +15893,7 @@
       "properties": {
         "name": "Somalia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Somalia"
       },
       "geometry": {
@@ -16009,7 +16009,7 @@
       "properties": {
         "name": "Suriname",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "Suriname"
       },
       "geometry": {
@@ -16194,7 +16194,7 @@
       "properties": {
         "name": "Swaziland",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Swaziland"
       },
       "geometry": {
@@ -16222,7 +16222,7 @@
       "properties": {
         "name": "Syria",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Syria"
       },
       "geometry": {
@@ -16266,7 +16266,7 @@
       "properties": {
         "name": "Chad",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Chad"
       },
       "geometry": {
@@ -16341,7 +16341,7 @@
       "properties": {
         "name": "Togo",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Togo"
       },
       "geometry": {
@@ -16516,7 +16516,7 @@
       "properties": {
         "name": "Turkmenistan",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Turkmenistan"
       },
       "geometry": {
@@ -16640,7 +16640,7 @@
       "properties": {
         "name": "Tunisia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Tunisia"
       },
       "geometry": {
@@ -16804,7 +16804,7 @@
       "properties": {
         "name": "United Republic of Tanzania",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "United Republic of Tanzania"
       },
       "geometry": {
@@ -16870,7 +16870,7 @@
       "properties": {
         "name": "Uganda",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Uganda"
       },
       "geometry": {
@@ -17029,7 +17029,7 @@
       "properties": {
         "name": "Uruguay",
         "type": "Country",
-        "Continent": "North America",
+        "Continent": "South America",
         "Country": "Uruguay"
       },
       "geometry": {
@@ -17308,7 +17308,7 @@
       "properties": {
         "name": "Vanuatu",
         "type": "Country",
-        "Continent": "Asia",
+        "Continent": "Oceania",
         "Country": "Vanuatu"
       },
       "geometry": {
@@ -17343,7 +17343,7 @@
       "properties": {
         "name": "West Bank",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "West Bank"
       },
       "geometry": {
@@ -17369,7 +17369,7 @@
       "properties": {
         "name": "Yemen",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Asia",
         "Country": "Yemen"
       },
       "geometry": {
@@ -17543,7 +17543,7 @@
       "properties": {
         "name": "Zambia",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Zambia"
       },
       "geometry": {
@@ -17621,7 +17621,7 @@
       "properties": {
         "name": "Zimbabwe",
         "type": "Country",
-        "Continent": "Europe",
+        "Continent": "Africa",
         "Country": "Zimbabwe"
       },
       "geometry": {
