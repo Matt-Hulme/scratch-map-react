@@ -69,14 +69,20 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
     <div className="md:min-w-[300px] lg:min-w-[700px] min-w-[200px] flex flex-col lg:flex-row lg:justify-between lg:space-y-0 space-y-4 justify-self-center lg:space-x-4 text-black">
       <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
         <span className="h2">{`Continents: ${selectedContinentCount}`}</span>
-        <Divider />
-        <IconButton
-          variant="unstyled"
-          aria-label="See selected Continents list"
-          className="lg:w-fit self-center"
-          icon={isPanelExpanded[0] ? <ChevronDownIcon /> : <ChevronUpIcon />}
-          onClick={() => onPanelExpand(0)}
-        />
+        {!!selectedContinentCount && (
+          <>
+            <Divider />
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected Continents list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[0] ? <ChevronDownIcon /> : <ChevronUpIcon />
+              }
+              onClick={() => onPanelExpand(0)}
+            />
+          </>
+        )}
         <List>
           {isPanelExpanded[0] &&
             Array.from(selectedFeatures.continents).map((name) => (
@@ -88,14 +94,20 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
       </div>
       <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
         <span className="h2">{`Countries: ${selectedCountryCount}`}</span>
-        <Divider />
-        <IconButton
-          variant="unstyled"
-          aria-label="See selected Countries list"
-          className="lg:w-fit self-center"
-          icon={isPanelExpanded[1] ? <ChevronDownIcon /> : <ChevronUpIcon />}
-          onClick={() => onPanelExpand(1)}
-        />
+        {!!selectedCountryCount && (
+          <>
+            <Divider />
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected Countries list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[1] ? <ChevronDownIcon /> : <ChevronUpIcon />
+              }
+              onClick={() => onPanelExpand(1)}
+            />
+          </>
+        )}
         <List>
           {isPanelExpanded[1] &&
             Array.from(selectedFeatures.countries).map((name) => (
@@ -107,14 +119,20 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
       </div>
       <div className="bg-white rounded-md p-2 flex-1 flex flex-col h-fit">
         <span className="h2">{`States: ${selectedStateCount}`}</span>
-        <Divider />
-        <IconButton
-          variant="unstyled"
-          aria-label="See selected States list"
-          className="lg:w-fit self-center"
-          icon={isPanelExpanded[2] ? <ChevronDownIcon /> : <ChevronUpIcon />}
-          onClick={() => onPanelExpand(2)}
-        />
+        {!!selectedStateCount && (
+          <>
+            <Divider />
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected States list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[2] ? <ChevronDownIcon /> : <ChevronUpIcon />
+              }
+              onClick={() => onPanelExpand(2)}
+            />
+          </>
+        )}
         <List>
           {isPanelExpanded[2] &&
             Array.from(selectedFeatures.states).map((name) => (
