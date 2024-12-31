@@ -27,8 +27,10 @@ export const Map = () => {
     countries: new Set(),
     states: new Set(),
   })
+  console.log('selectedFeatures', selectedFeatures)
   const mapRef = useRef<google.maps.Map | null>(null)
   const [user, setUser] = useState<User | null>(null)
+  const [featuresLoaded, setFeaturesLoaded] = useState(false)
 
   const onFeatureClick = (
     feature: google.maps.Data.Feature,
@@ -157,30 +159,31 @@ export const Map = () => {
   )
 
   useEffect(() => {
-    const loadSelectedFeatures = async () => {
-      const userId = auth?.currentUser?.uid
-      if (userId) {
-        const dbRef = ref(database, `users/${userId}`)
-        const snapshot = await get(dbRef)
-        if (snapshot.exists()) {
-          const data = snapshot.val()
-          setSelectedFeatures({
-            ids: data.ids,
-            continents: new Set(data.continents),
-            countries: new Set(data.countries),
-            states: new Set(data.states),
-          })
-        }
+    const loadSelectedFeatures = async (userId: string) => {
+      const dbRef = ref(database, `users/${userId}`)
+      const snapshot = await get(dbRef)
+      if (snapshot.exists()) {
+        const data = snapshot.val()
+        setSelectedFeatures({
+          ids: data.ids,
+          continents: new Set(data.continents),
+          countries: new Set(data.countries),
+          states: new Set(data.states),
+        })
+        setFeaturesLoaded(true)
       }
     }
-    loadSelectedFeatures()
-  }, [])
+
+    if (user) {
+      loadSelectedFeatures(user.uid)
+    }
+  }, [user])
 
   useEffect(() => {
-    if (mapRef.current) {
+    if (mapRef.current && featuresLoaded) {
       styleSelectedCountriesInitial(mapRef.current)
     }
-  }, [styleSelectedCountriesInitial])
+  }, [styleSelectedCountriesInitial, featuresLoaded])
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -219,7 +222,9 @@ export const Map = () => {
             fillColor: 'transparent',
           }))
 
-          styleSelectedCountriesInitial(map)
+          if (featuresLoaded) {
+            styleSelectedCountriesInitial(map)
+          }
 
           map.data.addListener(
             'click',
