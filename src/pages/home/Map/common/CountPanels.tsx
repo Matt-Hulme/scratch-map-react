@@ -26,7 +26,6 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
     })
   }
 
-  // Fetch and parse the GeoJSON data to determine counts
   useEffect(() => {
     const fetchGeoJsonData = async () => {
       const response = await fetch('assets/combined-final.geojson')
@@ -51,9 +50,6 @@ export const CountPanels = ({ selectedFeatures }: CountPanelsProps) => {
           }
           if (type === 'State') {
             states.add(name)
-            console.log('type === State', name)
-          } else {
-            console.log('type !== State', name)
           }
         }
       })
