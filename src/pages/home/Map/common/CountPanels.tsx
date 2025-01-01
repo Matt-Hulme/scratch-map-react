@@ -79,7 +79,7 @@ export const CountPanels = ({
               onClick={() => onPanelExpandChange(0)}
             />
             {isPanelExpanded[0] && (
-              <List className="h-[125px] overflow-y-auto">
+              <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.continents).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>
@@ -109,7 +109,7 @@ export const CountPanels = ({
               onClick={() => onPanelExpandChange(1)}
             />
             {isPanelExpanded[1] && (
-              <List className="h-[125px] overflow-y-auto">
+              <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.countries).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>
@@ -139,7 +139,7 @@ export const CountPanels = ({
               onClick={() => onPanelExpandChange(2)}
             />
             {isPanelExpanded[2] && (
-              <List className="h-[125px] overflow-y-auto">
+              <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.states).map((name) => (
                   <ListItem key={name}>
                     <span className="line-clamp-1">{name}</span>
