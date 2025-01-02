@@ -4,6 +4,7 @@ import { ref, get, set } from 'firebase/database'
 import { database, auth } from '../../../config/firebase/firebaseConfig'
 import { CountPanels, MapActions } from './common'
 import { User } from 'firebase/auth'
+import type { selectedFeatures } from './mapTypes'
 
 const center = {
   lat: 32,
@@ -17,12 +18,7 @@ export const Map = () => {
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string,
   })
   const [isPanelExpanded, setIsPanelExpanded] = useState([false, false, false])
-  const [selectedFeatures, setSelectedFeatures] = useState<{
-    ids: string[]
-    continents: Set<string>
-    countries: Set<string>
-    states: Set<string>
-  }>({
+  const [selectedFeatures, setSelectedFeatures] = useState<selectedFeatures>({
     ids: [],
     continents: new Set(),
     countries: new Set(),
@@ -100,28 +96,7 @@ export const Map = () => {
           states: newStates,
         }
 
-        if (updatedSelectedFeatures.continents.size === 0) {
-          setIsPanelExpanded((prevIsPanelExpanded) => {
-            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
-            updatedIsPanelExpanded[0] = false
-            return updatedIsPanelExpanded
-          })
-        }
-        if (updatedSelectedFeatures.countries.size === 0) {
-          setIsPanelExpanded((prevIsPanelExpanded) => {
-            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
-            updatedIsPanelExpanded[1] = false
-            return updatedIsPanelExpanded
-          })
-        }
-        if (updatedSelectedFeatures.states.size === 0) {
-          setIsPanelExpanded((prevIsPanelExpanded) => {
-            const updatedIsPanelExpanded = [...prevIsPanelExpanded]
-            updatedIsPanelExpanded[2] = false
-            return updatedIsPanelExpanded
-          })
-        }
-
+        onPanelEmptyClose(updatedSelectedFeatures)
         return updatedSelectedFeatures
       } else {
         if (featureContinent) newContinents.add(featureContinent)
@@ -174,6 +149,30 @@ export const Map = () => {
     }
   }
 
+  const onPanelEmptyClose = (updatedSelectedFeatures: selectedFeatures) => {
+    if (updatedSelectedFeatures.continents.size === 0) {
+      setIsPanelExpanded((prevIsPanelExpanded) => {
+        const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+        updatedIsPanelExpanded[0] = false
+        return updatedIsPanelExpanded
+      })
+    }
+    if (updatedSelectedFeatures.countries.size === 0) {
+      setIsPanelExpanded((prevIsPanelExpanded) => {
+        const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+        updatedIsPanelExpanded[1] = false
+        return updatedIsPanelExpanded
+      })
+    }
+    if (updatedSelectedFeatures.states.size === 0) {
+      setIsPanelExpanded((prevIsPanelExpanded) => {
+        const updatedIsPanelExpanded = [...prevIsPanelExpanded]
+        updatedIsPanelExpanded[2] = false
+        return updatedIsPanelExpanded
+      })
+    }
+  }
+
   const onPanelExpandChange = (index: number) => {
     setIsPanelExpanded((prevIsPanelExpanded) => {
       const updatedIsPanelExpanded = [...prevIsPanelExpanded]
@@ -198,6 +197,8 @@ export const Map = () => {
   )
 
   useEffect(() => {
+    if (!user) return
+
     const loadSelectedFeatures = async (userId: string) => {
       const dbRef = ref(database, `users/${userId}`)
       const snapshot = await get(dbRef)
@@ -213,9 +214,7 @@ export const Map = () => {
       }
     }
 
-    if (user) {
-      loadSelectedFeatures(user.uid)
-    }
+    loadSelectedFeatures(user.uid)
   }, [user])
 
   useEffect(() => {
