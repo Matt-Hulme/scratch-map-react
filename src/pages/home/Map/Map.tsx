@@ -38,7 +38,7 @@ export const Map = () => {
     const featureContinent = feature.getProperty('Continent') as string
     const featureCountry = feature.getProperty('Country') as string
 
-    setSelectedFeatures((prevSelectedFeatures) => {
+    setSelectedFeatures((prevSelectedFeatures: selectedFeatures) => {
       const featureIndex = prevSelectedFeatures.ids.indexOf(featureId)
       const newContinents = new Set(prevSelectedFeatures.continents)
       const newCountries = new Set(prevSelectedFeatures.countries)
@@ -49,7 +49,7 @@ export const Map = () => {
         newStates.delete(featureName)
 
         const remainingStatesInCountry = prevSelectedFeatures.ids.some(
-          (stateId) => {
+          (stateId: string) => {
             const stateFeature = map.data.getFeatureById(stateId)
             return (
               stateFeature &&
@@ -64,7 +64,7 @@ export const Map = () => {
         }
 
         const remainingCountriesInContinent = prevSelectedFeatures.ids.some(
-          (countryId) => {
+          (countryId: string) => {
             const countryFeature = map.data.getFeatureById(countryId)
             return (
               countryFeature &&
@@ -75,7 +75,7 @@ export const Map = () => {
         )
 
         const remainingStatesInContinent = prevSelectedFeatures.ids.some(
-          (stateId) => {
+          (stateId: string) => {
             const stateFeature = map.data.getFeatureById(stateId)
             return (
               stateFeature &&
@@ -90,7 +90,9 @@ export const Map = () => {
         }
 
         const updatedSelectedFeatures = {
-          ids: prevSelectedFeatures.ids.filter((id) => id !== featureId),
+          ids: prevSelectedFeatures.ids.filter(
+            (id: string) => id !== featureId
+          ),
           continents: newContinents,
           countries: newCountries,
           states: newStates,
@@ -120,7 +122,7 @@ export const Map = () => {
 
   const onMapClear = () => {
     if (mapRef.current) {
-      selectedFeatures.ids.forEach((featureId) => {
+      selectedFeatures.ids.forEach((featureId: string) => {
         const feature = mapRef.current?.data.getFeatureById(featureId)
         if (feature) {
           mapRef.current?.data.revertStyle(feature)
@@ -183,7 +185,7 @@ export const Map = () => {
 
   const styleSelectedCountriesInitial = useCallback(
     (map: google.maps.Map) => {
-      selectedFeatures.ids.forEach((featureId) => {
+      selectedFeatures.ids.forEach((featureId: string) => {
         const feature = map.data.getFeatureById(featureId)
         if (feature) {
           map.data.overrideStyle(feature, {
