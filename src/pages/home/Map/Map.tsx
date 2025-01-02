@@ -4,7 +4,6 @@ import { ref, get, set } from 'firebase/database'
 import { database, auth } from '../../../config/firebase/firebaseConfig'
 import { CountPanels, MapActions } from './common'
 import { User } from 'firebase/auth'
-import type { selectedFeatures } from './mapTypes'
 
 const center = {
   lat: 32,
@@ -12,6 +11,13 @@ const center = {
 }
 
 const mapId = import.meta.env.VITE_GOOGLE_MAP_ID as string
+
+interface selectedFeatures {
+  ids: string[]
+  continents: Set<string>
+  countries: Set<string>
+  states: Set<string>
+}
 
 export const Map = () => {
   const { isLoaded } = useLoadScript({
