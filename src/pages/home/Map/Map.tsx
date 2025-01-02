@@ -4,7 +4,7 @@ import { ref, get, set } from 'firebase/database'
 import { database, auth } from '../../../config/firebase/firebaseConfig'
 import { CountPanels, MapActions } from './common'
 import { User } from 'firebase/auth'
-import { selectedFeatures } from './mapTypes'
+import type { selectedFeatures } from './mapTypes'
 
 const center = {
   lat: 32,
