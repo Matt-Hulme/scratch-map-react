@@ -35,7 +35,7 @@ export const CountPanels = ({
         const featureId = feature.id as string
         if (selectedFeatures.ids.includes(featureId)) {
           const properties = feature?.properties ?? {}
-          const type = properties?.type
+          const featureType = properties?.type
           const name = properties?.name
           const continent = properties.Continent
           if (continent) {
@@ -45,7 +45,7 @@ export const CountPanels = ({
           if (country) {
             countries.add(country)
           }
-          if (type === 'State') {
+          if (featureType === 'State') {
             states.add(name)
           }
         }

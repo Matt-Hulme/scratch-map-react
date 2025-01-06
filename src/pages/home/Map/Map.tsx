@@ -240,11 +240,7 @@ export const Map = () => {
   }, [])
 
   if (!isLoaded) {
-    return (
-      <div className="bg-[#2e6f40] flex flex-col items-center justify-center space-y-10 relative">
-        <div>Loading Map...</div>
-      </div>
-    )
+    return <div>Loading...</div>
   }
 
   return (
