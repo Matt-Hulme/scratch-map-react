@@ -69,15 +69,6 @@ export const CountPanels = ({
         {!!selectedContinentCount && (
           <>
             <Divider />
-            <IconButton
-              variant="unstyled"
-              aria-label="See selected Continents list"
-              className="lg:w-fit self-center"
-              icon={
-                isPanelExpanded[0] ? <ChevronUpIcon /> : <ChevronDownIcon />
-              }
-              onClick={() => onPanelExpandChange(0)}
-            />
             {isPanelExpanded[0] && (
               <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.continents).map((name) => (
@@ -87,6 +78,15 @@ export const CountPanels = ({
                 ))}
               </List>
             )}
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected Continents list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[0] ? <ChevronUpIcon /> : <ChevronDownIcon />
+              }
+              onClick={() => onPanelExpandChange(0)}
+            />
           </>
         )}
       </div>
@@ -99,15 +99,6 @@ export const CountPanels = ({
         {!!selectedCountryCount && (
           <>
             <Divider />
-            <IconButton
-              variant="unstyled"
-              aria-label="See selected Countries list"
-              className="lg:w-fit self-center"
-              icon={
-                isPanelExpanded[1] ? <ChevronUpIcon /> : <ChevronDownIcon />
-              }
-              onClick={() => onPanelExpandChange(1)}
-            />
             {isPanelExpanded[1] && (
               <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.countries).map((name) => (
@@ -117,6 +108,15 @@ export const CountPanels = ({
                 ))}
               </List>
             )}
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected Countries list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[1] ? <ChevronUpIcon /> : <ChevronDownIcon />
+              }
+              onClick={() => onPanelExpandChange(1)}
+            />
           </>
         )}
       </div>
@@ -129,15 +129,6 @@ export const CountPanels = ({
         {!!selectedStateCount && (
           <>
             <Divider />
-            <IconButton
-              variant="unstyled"
-              aria-label="See selected States list"
-              className="lg:w-fit self-center"
-              icon={
-                isPanelExpanded[2] ? <ChevronUpIcon /> : <ChevronDownIcon />
-              }
-              onClick={() => onPanelExpandChange(2)}
-            />
             {isPanelExpanded[2] && (
               <List className="max-h-[125px] md:h-[125px] overflow-y-auto">
                 {Array.from(selectedFeatures.states).map((name) => (
@@ -147,6 +138,15 @@ export const CountPanels = ({
                 ))}
               </List>
             )}
+            <IconButton
+              variant="unstyled"
+              aria-label="See selected States list"
+              className="lg:w-fit self-center"
+              icon={
+                isPanelExpanded[2] ? <ChevronUpIcon /> : <ChevronDownIcon />
+              }
+              onClick={() => onPanelExpandChange(2)}
+            />
           </>
         )}
       </div>
