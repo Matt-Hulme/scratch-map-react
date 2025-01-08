@@ -8,8 +8,8 @@
         "name": "Alabama",
         "density": 94.65,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -59,8 +59,8 @@
         "name": "Alaska",
         "density": 1.264,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1305,8 +1305,8 @@
         "name": "Arizona",
         "density": 57.05,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1355,8 +1355,8 @@
         "name": "Arkansas",
         "density": 56.43,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1410,8 +1410,8 @@
         "name": "California",
         "density": 241.7,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1521,8 +1521,8 @@
         "name": "Colorado",
         "density": 49.33,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1555,8 +1555,8 @@
         "name": "Connecticut",
         "density": 739.1,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1589,8 +1589,8 @@
         "name": "Delaware",
         "density": 464.3,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1620,8 +1620,8 @@
         "name": "District of Columbia",
         "density": 10065,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1643,8 +1643,8 @@
         "name": "Florida",
         "density": 353.4,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1739,8 +1739,8 @@
         "name": "Georgia",
         "density": 169.5,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1808,8 +1808,8 @@
         "name": "Hawaii",
         "density": 214.1,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1893,8 +1893,8 @@
         "name": "Idaho",
         "density": 19.15,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -1977,8 +1977,8 @@
         "name": "Illinois",
         "density": 231.5,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2062,8 +2062,8 @@
         "name": "Indiana",
         "density": 181.7,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2126,8 +2126,8 @@
         "name": "Iowa",
         "density": 54.81,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2194,8 +2194,8 @@
         "name": "Kansas",
         "density": 35.09,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2225,8 +2225,8 @@
         "name": "Kentucky",
         "density": 110,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2318,8 +2318,8 @@
         "name": "Louisiana",
         "density": 105,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2412,8 +2412,8 @@
         "name": "Maine",
         "density": 43.04,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2496,8 +2496,8 @@
         "name": "Maryland",
         "density": 596.3,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2584,8 +2584,8 @@
         "name": "Massachusetts",
         "density": 840.2,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2637,8 +2637,8 @@
         "name": "Michigan",
         "density": 173.9,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2821,8 +2821,8 @@
         "name": "Minnesota",
         "density": 67.14,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2922,8 +2922,8 @@
         "name": "Mississippi",
         "density": 63.5,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -2986,8 +2986,8 @@
         "name": "Missouri",
         "density": 87.26,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3057,8 +3057,8 @@
         "name": "Montana",
         "density": 6.858,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3127,8 +3127,8 @@
         "name": "Nebraska",
         "density": 23.97,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3174,8 +3174,8 @@
         "name": "Nevada",
         "density": 24.8,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3213,8 +3213,8 @@
         "name": "New Hampshire",
         "density": 147,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3259,8 +3259,8 @@
         "name": "New Jersey",
         "density": 1189,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3309,8 +3309,8 @@
         "name": "New Mexico",
         "density": 17.16,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3344,8 +3344,8 @@
         "name": "New York",
         "density": 412.3,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3430,8 +3430,8 @@
         "name": "North Carolina",
         "density": 198.2,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3509,8 +3509,8 @@
         "name": "North Dakota",
         "density": 9.916,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3543,8 +3543,8 @@
         "name": "Ohio",
         "density": 281.9,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3608,8 +3608,8 @@
         "name": "Oklahoma",
         "density": 55.22,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3671,8 +3671,8 @@
         "name": "Oregon",
         "density": 40.33,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3745,8 +3745,8 @@
         "name": "Pennsylvania",
         "density": 284.3,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3796,8 +3796,8 @@
         "name": "Rhode Island",
         "density": 1006,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3835,8 +3835,8 @@
         "name": "South Carolina",
         "density": 155.4,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3897,8 +3897,8 @@
         "name": "South Dakota",
         "density": 98.07,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -3944,8 +3944,8 @@
         "name": "Tennessee",
         "density": 88.08,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4005,8 +4005,8 @@
         "name": "Texas",
         "density": 98.07,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4175,8 +4175,8 @@
         "name": "Utah",
         "density": 34.3,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4205,8 +4205,8 @@
         "name": "Vermont",
         "density": 67.73,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4251,8 +4251,8 @@
         "name": "Virginia",
         "density": 204.5,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4359,8 +4359,8 @@
         "name": "Washington",
         "density": 102.6,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4459,8 +4459,8 @@
         "name": "West Virginia",
         "density": 77.06,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4542,8 +4542,8 @@
         "name": "Wisconsin",
         "density": 105.2,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4635,8 +4635,8 @@
         "name": "Wyoming",
         "density": 5.851,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4666,8 +4666,8 @@
         "name": "Puerto Rico",
         "density": 1082,
         "type": "State",
-        "Country": "United States of America",
-        "Continent": "North America"
+        "country": "United States of America",
+        "continent": "North America"
       },
       "geometry": {
         "type": "Polygon",
@@ -4699,9 +4699,9 @@
       "id": "AFG",
       "properties": {
         "name": "Afghanistan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Afghanistan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Afghanistan"
       },
       "geometry": {
         "type": "Polygon",
@@ -4785,9 +4785,9 @@
       "id": "AGO",
       "properties": {
         "name": "Angola",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Angola"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Angola"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4883,9 +4883,9 @@
       "id": "ALB",
       "properties": {
         "name": "Albania",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Albania"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Albania"
       },
       "geometry": {
         "type": "Polygon",
@@ -4922,9 +4922,9 @@
       "id": "ARE",
       "properties": {
         "name": "United Arab Emirates",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "United Arab Emirates"
+        "type": "country",
+        "continent": "Asia",
+        "country": "United Arab Emirates"
       },
       "geometry": {
         "type": "Polygon",
@@ -4961,9 +4961,9 @@
       "id": "ARG",
       "properties": {
         "name": "Argentina",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Argentina"
+        "type": "country",
+        "continent": "South America",
+        "country": "Argentina"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5105,9 +5105,9 @@
       "id": "ARM",
       "properties": {
         "name": "Armenia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Armenia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Armenia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5142,9 +5142,9 @@
       "id": "AUS",
       "properties": {
         "name": "Australia",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "Australia"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "Australia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5406,9 +5406,9 @@
       "id": "AUT",
       "properties": {
         "name": "Austria",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Austria"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Austria"
       },
       "geometry": {
         "type": "Polygon",
@@ -5460,9 +5460,9 @@
       "id": "AZE",
       "properties": {
         "name": "Azerbaijan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Azerbaijan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Azerbaijan"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5527,9 +5527,9 @@
       "id": "BDI",
       "properties": {
         "name": "Burundi",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Burundi"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Burundi"
       },
       "geometry": {
         "type": "Polygon",
@@ -5557,9 +5557,9 @@
       "id": "BEL",
       "properties": {
         "name": "Belgium",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Belgium"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Belgium"
       },
       "geometry": {
         "type": "Polygon",
@@ -5589,9 +5589,9 @@
       "id": "BEN",
       "properties": {
         "name": "Benin",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Benin"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Benin"
       },
       "geometry": {
         "type": "Polygon",
@@ -5631,9 +5631,9 @@
       "id": "BFA",
       "properties": {
         "name": "Burkina Faso",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Burkina Faso"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Burkina Faso"
       },
       "geometry": {
         "type": "Polygon",
@@ -5687,9 +5687,9 @@
       "id": "BGD",
       "properties": {
         "name": "Bangladesh",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Bangladesh"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Bangladesh"
       },
       "geometry": {
         "type": "Polygon",
@@ -5740,9 +5740,9 @@
       "id": "BGR",
       "properties": {
         "name": "Bulgaria",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Bulgaria"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Bulgaria"
       },
       "geometry": {
         "type": "Polygon",
@@ -5785,9 +5785,9 @@
       "id": "BHS",
       "properties": {
         "name": "The Bahamas",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "The Bahamas"
+        "type": "country",
+        "continent": "North America",
+        "country": "The Bahamas"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5833,9 +5833,9 @@
       "id": "BIH",
       "properties": {
         "name": "Bosnia and Herzegovina",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Bosnia and Herzegovina"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Bosnia and Herzegovina"
       },
       "geometry": {
         "type": "Polygon",
@@ -5872,9 +5872,9 @@
       "id": "BLR",
       "properties": {
         "name": "Belarus",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Belarus"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Belarus"
       },
       "geometry": {
         "type": "Polygon",
@@ -5933,9 +5933,9 @@
       "id": "BLZ",
       "properties": {
         "name": "Belize",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Belize"
+        "type": "country",
+        "continent": "North America",
+        "country": "Belize"
       },
       "geometry": {
         "type": "Polygon",
@@ -5970,9 +5970,9 @@
       "id": "BMU",
       "properties": {
         "name": "Bermuda",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Bermuda"
+        "type": "country",
+        "continent": "North America",
+        "country": "Bermuda"
       },
       "geometry": {
         "type": "Polygon",
@@ -6073,9 +6073,9 @@
       "id": "BOL",
       "properties": {
         "name": "Bolivia",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Bolivia"
+        "type": "country",
+        "continent": "South America",
+        "country": "Bolivia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6150,9 +6150,9 @@
       "id": "BRA",
       "properties": {
         "name": "Brazil",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Brazil"
+        "type": "country",
+        "continent": "South America",
+        "country": "Brazil"
       },
       "geometry": {
         "type": "Polygon",
@@ -6370,9 +6370,9 @@
       "id": "BRN",
       "properties": {
         "name": "Brunei",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Brunei"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Brunei"
       },
       "geometry": {
         "type": "Polygon",
@@ -6395,9 +6395,9 @@
       "id": "BTN",
       "properties": {
         "name": "Bhutan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Bhutan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Bhutan"
       },
       "geometry": {
         "type": "Polygon",
@@ -6425,9 +6425,9 @@
       "id": "BWA",
       "properties": {
         "name": "Botswana",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Botswana"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Botswana"
       },
       "geometry": {
         "type": "Polygon",
@@ -6482,9 +6482,9 @@
       "id": "CAF",
       "properties": {
         "name": "Central African Republic",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Central African Republic"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Central African Republic"
       },
       "geometry": {
         "type": "Polygon",
@@ -6561,9 +6561,9 @@
       "id": "CAN",
       "properties": {
         "name": "Canada",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Canada"
+        "type": "country",
+        "continent": "North America",
+        "country": "Canada"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7491,9 +7491,9 @@
       "id": "CHE",
       "properties": {
         "name": "Switzerland",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Switzerland"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Switzerland"
       },
       "geometry": {
         "type": "Polygon",
@@ -7532,9 +7532,9 @@
       "id": "CHL",
       "properties": {
         "name": "Chile",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Chile"
+        "type": "country",
+        "continent": "South America",
+        "country": "Chile"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7669,9 +7669,9 @@
       "id": "CHN",
       "properties": {
         "name": "China",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "China"
+        "type": "country",
+        "continent": "Asia",
+        "country": "China"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7932,9 +7932,9 @@
       "id": "CIV",
       "properties": {
         "name": "Ivory Coast",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Ivory Coast"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Ivory Coast"
       },
       "geometry": {
         "type": "Polygon",
@@ -7995,9 +7995,9 @@
       "id": "CMR",
       "properties": {
         "name": "Cameroon",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Cameroon"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Cameroon"
       },
       "geometry": {
         "type": "Polygon",
@@ -8073,9 +8073,9 @@
       "id": "COD",
       "properties": {
         "name": "Democratic Republic of the Congo",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Democratic Republic of the Congo"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Democratic Republic of the Congo"
       },
       "geometry": {
         "type": "Polygon",
@@ -8212,9 +8212,9 @@
       "id": "COG",
       "properties": {
         "name": "Republic of the Congo",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Republic of the Congo"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Republic of the Congo"
       },
       "geometry": {
         "type": "Polygon",
@@ -8278,9 +8278,9 @@
       "id": "COL",
       "properties": {
         "name": "Colombia",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Colombia"
+        "type": "country",
+        "continent": "South America",
+        "country": "Colombia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8395,9 +8395,9 @@
       "id": "CRI",
       "properties": {
         "name": "Costa Rica",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Costa Rica"
+        "type": "country",
+        "continent": "North America",
+        "country": "Costa Rica"
       },
       "geometry": {
         "type": "Polygon",
@@ -8448,9 +8448,9 @@
       "id": "CUB",
       "properties": {
         "name": "Cuba",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Cuba"
+        "type": "country",
+        "continent": "North America",
+        "country": "Cuba"
       },
       "geometry": {
         "type": "Polygon",
@@ -8507,9 +8507,9 @@
       "id": "-99",
       "properties": {
         "name": "Northern Cyprus",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Northern Cyprus"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Northern Cyprus"
       },
       "geometry": {
         "type": "Polygon",
@@ -8540,9 +8540,9 @@
       "id": "CYP",
       "properties": {
         "name": "Cyprus",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Cyprus"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Cyprus"
       },
       "geometry": {
         "type": "Polygon",
@@ -8572,9 +8572,9 @@
       "id": "CZE",
       "properties": {
         "name": "Czech Republic",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Czech Republic"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Czech Republic"
       },
       "geometry": {
         "type": "Polygon",
@@ -8624,9 +8624,9 @@
       "id": "DEU",
       "properties": {
         "name": "Germany",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Germany"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Germany"
       },
       "geometry": {
         "type": "Polygon",
@@ -8699,9 +8699,9 @@
       "id": "DJI",
       "properties": {
         "name": "Djibouti",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Djibouti"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Djibouti"
       },
       "geometry": {
         "type": "Polygon",
@@ -8731,9 +8731,9 @@
       "id": "DNK",
       "properties": {
         "name": "Denmark",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Denmark"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Denmark"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8778,9 +8778,9 @@
       "id": "DOM",
       "properties": {
         "name": "Dominican Republic",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Dominican Republic"
+        "type": "country",
+        "continent": "North America",
+        "country": "Dominican Republic"
       },
       "geometry": {
         "type": "Polygon",
@@ -8821,9 +8821,9 @@
       "id": "DZA",
       "properties": {
         "name": "Algeria",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Algeria"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Algeria"
       },
       "geometry": {
         "type": "Polygon",
@@ -8900,9 +8900,9 @@
       "id": "ECU",
       "properties": {
         "name": "Ecuador",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Ecuador"
+        "type": "country",
+        "continent": "South America",
+        "country": "Ecuador"
       },
       "geometry": {
         "type": "Polygon",
@@ -8950,9 +8950,9 @@
       "id": "EGY",
       "properties": {
         "name": "Egypt",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Egypt"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Egypt"
       },
       "geometry": {
         "type": "Polygon",
@@ -9009,9 +9009,9 @@
       "id": "ERI",
       "properties": {
         "name": "Eritrea",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Eritrea"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Eritrea"
       },
       "geometry": {
         "type": "Polygon",
@@ -9054,9 +9054,9 @@
       "id": "ESP",
       "properties": {
         "name": "Spain",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Spain"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Spain"
       },
       "geometry": {
         "type": "Polygon",
@@ -9122,9 +9122,9 @@
       "id": "EST",
       "properties": {
         "name": "Estonia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Estonia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Estonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -9156,9 +9156,9 @@
       "id": "ETH",
       "properties": {
         "name": "Ethiopia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Ethiopia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Ethiopia"
       },
       "geometry": {
         "type": "Polygon",
@@ -9232,9 +9232,9 @@
       "id": "FIN",
       "properties": {
         "name": "Finland",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Finland"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Finland"
       },
       "geometry": {
         "type": "Polygon",
@@ -9287,9 +9287,9 @@
       "id": "FJI",
       "properties": {
         "name": "Fiji",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "Fiji"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "Fiji"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9336,9 +9336,9 @@
       "id": "FLK",
       "properties": {
         "name": "Falkland Islands",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Falkland Islands"
+        "type": "country",
+        "continent": "South America",
+        "country": "Falkland Islands"
       },
       "geometry": {
         "type": "Polygon",
@@ -9363,9 +9363,9 @@
       "id": "FRA",
       "properties": {
         "name": "France",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "France"
+        "type": "country",
+        "continent": "Europe",
+        "country": "France"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9441,9 +9441,9 @@
       "id": "GAB",
       "properties": {
         "name": "Gabon",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Gabon"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Gabon"
       },
       "geometry": {
         "type": "Polygon",
@@ -9489,9 +9489,9 @@
       "id": "GBR",
       "properties": {
         "name": "United Kingdom",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "United Kingdom"
+        "type": "country",
+        "continent": "Europe",
+        "country": "United Kingdom"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9568,9 +9568,9 @@
       "id": "GEO",
       "properties": {
         "name": "Georgia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Georgia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Georgia"
       },
       "geometry": {
         "type": "Polygon",
@@ -9609,9 +9609,9 @@
       "id": "GHA",
       "properties": {
         "name": "Ghana",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Ghana"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Ghana"
       },
       "geometry": {
         "type": "Polygon",
@@ -9651,9 +9651,9 @@
       "id": "GIN",
       "properties": {
         "name": "Guinea",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Guinea"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Guinea"
       },
       "geometry": {
         "type": "Polygon",
@@ -9738,9 +9738,9 @@
       "id": "GMB",
       "properties": {
         "name": "Gambia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Gambia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Gambia"
       },
       "geometry": {
         "type": "Polygon",
@@ -9771,9 +9771,9 @@
       "id": "GNB",
       "properties": {
         "name": "Guinea Bissau",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Guinea Bissau"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Guinea Bissau"
       },
       "geometry": {
         "type": "Polygon",
@@ -9807,9 +9807,9 @@
       "id": "GNQ",
       "properties": {
         "name": "Equatorial Guinea",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Equatorial Guinea"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Equatorial Guinea"
       },
       "geometry": {
         "type": "Polygon",
@@ -9831,9 +9831,9 @@
       "id": "GRC",
       "properties": {
         "name": "Greece",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Greece"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Greece"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9908,9 +9908,9 @@
       "id": "GRL",
       "properties": {
         "name": "Greenland",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Greenland"
+        "type": "country",
+        "continent": "North America",
+        "country": "Greenland"
       },
       "geometry": {
         "type": "Polygon",
@@ -10057,9 +10057,9 @@
       "id": "GTM",
       "properties": {
         "name": "Guatemala",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Guatemala"
+        "type": "country",
+        "continent": "North America",
+        "country": "Guatemala"
       },
       "geometry": {
         "type": "Polygon",
@@ -10109,9 +10109,9 @@
       "id": "GUF",
       "properties": {
         "name": "French Guiana",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "French Guiana"
+        "type": "country",
+        "continent": "South America",
+        "country": "French Guiana"
       },
       "geometry": {
         "type": "Polygon",
@@ -10145,9 +10145,9 @@
       "id": "GUY",
       "properties": {
         "name": "Guyana",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Guyana"
+        "type": "country",
+        "continent": "South America",
+        "country": "Guyana"
       },
       "geometry": {
         "type": "Polygon",
@@ -10202,9 +10202,9 @@
       "id": "HND",
       "properties": {
         "name": "Honduras",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Honduras"
+        "type": "country",
+        "continent": "North America",
+        "country": "Honduras"
       },
       "geometry": {
         "type": "Polygon",
@@ -10276,9 +10276,9 @@
       "id": "HRV",
       "properties": {
         "name": "Croatia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Croatia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Croatia"
       },
       "geometry": {
         "type": "Polygon",
@@ -10335,9 +10335,9 @@
       "id": "HTI",
       "properties": {
         "name": "Haiti",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Haiti"
+        "type": "country",
+        "continent": "North America",
+        "country": "Haiti"
       },
       "geometry": {
         "type": "Polygon",
@@ -10373,9 +10373,9 @@
       "id": "HUN",
       "properties": {
         "name": "Hungary",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Hungary"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Hungary"
       },
       "geometry": {
         "type": "Polygon",
@@ -10421,9 +10421,9 @@
       "id": "IDN",
       "properties": {
         "name": "Indonesia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Indonesia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Indonesia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10738,9 +10738,9 @@
       "id": "IND",
       "properties": {
         "name": "India",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "India"
+        "type": "country",
+        "continent": "Asia",
+        "country": "India"
       },
       "geometry": {
         "type": "Polygon",
@@ -10891,9 +10891,9 @@
       "id": "IRL",
       "properties": {
         "name": "Ireland",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Ireland"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Ireland"
       },
       "geometry": {
         "type": "Polygon",
@@ -10921,9 +10921,9 @@
       "id": "IRN",
       "properties": {
         "name": "Iran",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Iran"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Iran"
       },
       "geometry": {
         "type": "Polygon",
@@ -11013,9 +11013,9 @@
       "id": "IRQ",
       "properties": {
         "name": "Iraq",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Iraq"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Iraq"
       },
       "geometry": {
         "type": "Polygon",
@@ -11060,9 +11060,9 @@
       "id": "ISL",
       "properties": {
         "name": "Iceland",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Iceland"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Iceland"
       },
       "geometry": {
         "type": "Polygon",
@@ -11097,9 +11097,9 @@
       "id": "ISR",
       "properties": {
         "name": "Israel",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Israel"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Israel"
       },
       "geometry": {
         "type": "Polygon",
@@ -11137,9 +11137,9 @@
       "id": "ITA",
       "properties": {
         "name": "Italy",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Italy"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Italy"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11251,9 +11251,9 @@
       "id": "JAM",
       "properties": {
         "name": "Jamaica",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Jamaica"
+        "type": "country",
+        "continent": "North America",
+        "country": "Jamaica"
       },
       "geometry": {
         "type": "Polygon",
@@ -11279,9 +11279,9 @@
       "id": "JOR",
       "properties": {
         "name": "Jordan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Jordan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Jordan"
       },
       "geometry": {
         "type": "Polygon",
@@ -11315,9 +11315,9 @@
       "id": "JPN",
       "properties": {
         "name": "Japan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Japan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Japan"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11407,9 +11407,9 @@
       "id": "KAZ",
       "properties": {
         "name": "Kazakhstan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Kazakhstan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Kazakhstan"
       },
       "geometry": {
         "type": "Polygon",
@@ -11536,9 +11536,9 @@
       "id": "KEN",
       "properties": {
         "name": "Kenya",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Kenya"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Kenya"
       },
       "geometry": {
         "type": "Polygon",
@@ -11590,9 +11590,9 @@
       "id": "KGZ",
       "properties": {
         "name": "Kyrgyzstan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Kyrgyzstan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Kyrgyzstan"
       },
       "geometry": {
         "type": "Polygon",
@@ -11642,9 +11642,9 @@
       "id": "KHM",
       "properties": {
         "name": "Cambodia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Cambodia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Cambodia"
       },
       "geometry": {
         "type": "Polygon",
@@ -11676,9 +11676,9 @@
       "id": "KOR",
       "properties": {
         "name": "South Korea",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "South Korea"
+        "type": "country",
+        "continent": "Asia",
+        "country": "South Korea"
       },
       "geometry": {
         "type": "Polygon",
@@ -11712,9 +11712,9 @@
       "id": "CS-KM",
       "properties": {
         "name": "Kosovo",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Kosovo"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Kosovo"
       },
       "geometry": {
         "type": "Polygon",
@@ -11750,9 +11750,9 @@
       "id": "KWT",
       "properties": {
         "name": "Kuwait",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Kuwait"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Kuwait"
       },
       "geometry": {
         "type": "Polygon",
@@ -11776,9 +11776,9 @@
       "id": "LAO",
       "properties": {
         "name": "Laos",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Laos"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Laos"
       },
       "geometry": {
         "type": "Polygon",
@@ -11830,9 +11830,9 @@
       "id": "LBN",
       "properties": {
         "name": "Lebanon",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Lebanon"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Lebanon"
       },
       "geometry": {
         "type": "Polygon",
@@ -11858,9 +11858,9 @@
       "id": "LBR",
       "properties": {
         "name": "Liberia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Liberia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Liberia"
       },
       "geometry": {
         "type": "Polygon",
@@ -11902,9 +11902,9 @@
       "id": "LBY",
       "properties": {
         "name": "Libya",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Libya"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Libya"
       },
       "geometry": {
         "type": "Polygon",
@@ -11975,9 +11975,9 @@
       "id": "LKA",
       "properties": {
         "name": "Sri Lanka",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Sri Lanka"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Sri Lanka"
       },
       "geometry": {
         "type": "Polygon",
@@ -12002,9 +12002,9 @@
       "id": "LSO",
       "properties": {
         "name": "Lesotho",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Lesotho"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Lesotho"
       },
       "geometry": {
         "type": "Polygon",
@@ -12031,9 +12031,9 @@
       "id": "LTU",
       "properties": {
         "name": "Lithuania",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Lithuania"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Lithuania"
       },
       "geometry": {
         "type": "Polygon",
@@ -12067,9 +12067,9 @@
       "id": "LUX",
       "properties": {
         "name": "Luxembourg",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Luxembourg"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Luxembourg"
       },
       "geometry": {
         "type": "Polygon",
@@ -12091,9 +12091,9 @@
       "id": "LVA",
       "properties": {
         "name": "Latvia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Latvia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Latvia"
       },
       "geometry": {
         "type": "Polygon",
@@ -12130,9 +12130,9 @@
       "id": "MAR",
       "properties": {
         "name": "Morocco",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Morocco"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Morocco"
       },
       "geometry": {
         "type": "Polygon",
@@ -12211,9 +12211,9 @@
       "id": "MDA",
       "properties": {
         "name": "Moldova",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Moldova"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Moldova"
       },
       "geometry": {
         "type": "Polygon",
@@ -12255,9 +12255,9 @@
       "id": "MDG",
       "properties": {
         "name": "Madagascar",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Madagascar"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Madagascar"
       },
       "geometry": {
         "type": "Polygon",
@@ -12321,9 +12321,9 @@
       "id": "MEX",
       "properties": {
         "name": "Mexico",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Mexico"
+        "type": "country",
+        "continent": "North America",
+        "country": "Mexico"
       },
       "geometry": {
         "type": "Polygon",
@@ -12508,9 +12508,9 @@
       "id": "MKD",
       "properties": {
         "name": "Macedonia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Macedonia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Macedonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -12542,9 +12542,9 @@
       "id": "MLI",
       "properties": {
         "name": "Mali",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Mali"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Mali"
       },
       "geometry": {
         "type": "Polygon",
@@ -12635,9 +12635,9 @@
       "id": "MMR",
       "properties": {
         "name": "Myanmar",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Myanmar"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Myanmar"
       },
       "geometry": {
         "type": "Polygon",
@@ -12722,9 +12722,9 @@
       "id": "MNE",
       "properties": {
         "name": "Montenegro",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Montenegro"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Montenegro"
       },
       "geometry": {
         "type": "Polygon",
@@ -12757,9 +12757,9 @@
       "id": "MNG",
       "properties": {
         "name": "Mongolia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Mongolia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Mongolia"
       },
       "geometry": {
         "type": "Polygon",
@@ -12849,9 +12849,9 @@
       "id": "MOZ",
       "properties": {
         "name": "Mozambique",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Mozambique"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Mozambique"
       },
       "geometry": {
         "type": "Polygon",
@@ -12943,9 +12943,9 @@
       "id": "MRT",
       "properties": {
         "name": "Mauritania",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Mauritania"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Mauritania"
       },
       "geometry": {
         "type": "Polygon",
@@ -12999,9 +12999,9 @@
       "id": "MWI",
       "properties": {
         "name": "Malawi",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Malawi"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Malawi"
       },
       "geometry": {
         "type": "Polygon",
@@ -13044,9 +13044,9 @@
       "id": "MYS",
       "properties": {
         "name": "Malaysia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Malaysia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Malaysia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13129,9 +13129,9 @@
       "id": "NAM",
       "properties": {
         "name": "Namibia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Namibia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Namibia"
       },
       "geometry": {
         "type": "Polygon",
@@ -13190,9 +13190,9 @@
       "id": "NCL",
       "properties": {
         "name": "New Caledonia",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "New Caledonia"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "New Caledonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -13220,9 +13220,9 @@
       "id": "NER",
       "properties": {
         "name": "Niger",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Niger"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Niger"
       },
       "geometry": {
         "type": "Polygon",
@@ -13295,9 +13295,9 @@
       "id": "NGA",
       "properties": {
         "name": "Nigeria",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Nigeria"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Nigeria"
       },
       "geometry": {
         "type": "Polygon",
@@ -13370,9 +13370,9 @@
       "id": "NIC",
       "properties": {
         "name": "Nicaragua",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Nicaragua"
+        "type": "country",
+        "continent": "North America",
+        "country": "Nicaragua"
       },
       "geometry": {
         "type": "Polygon",
@@ -13439,9 +13439,9 @@
       "id": "NLD",
       "properties": {
         "name": "Netherlands",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Netherlands"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Netherlands"
       },
       "geometry": {
         "type": "Polygon",
@@ -13470,9 +13470,9 @@
       "id": "NOR",
       "properties": {
         "name": "Norway",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Norway"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Norway"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13589,9 +13589,9 @@
       "id": "NPL",
       "properties": {
         "name": "Nepal",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Nepal"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Nepal"
       },
       "geometry": {
         "type": "Polygon",
@@ -13629,9 +13629,9 @@
       "id": "NZL",
       "properties": {
         "name": "New Zealand",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "New Zealand"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "New Zealand"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13718,9 +13718,9 @@
       "id": "OMN",
       "properties": {
         "name": "Oman",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Oman"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Oman"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13788,9 +13788,9 @@
       "id": "PAK",
       "properties": {
         "name": "Pakistan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Pakistan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Pakistan"
       },
       "geometry": {
         "type": "Polygon",
@@ -13871,9 +13871,9 @@
       "id": "PAN",
       "properties": {
         "name": "Panama",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Panama"
+        "type": "country",
+        "continent": "North America",
+        "country": "Panama"
       },
       "geometry": {
         "type": "Polygon",
@@ -13940,9 +13940,9 @@
       "id": "PER",
       "properties": {
         "name": "Peru",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Peru"
+        "type": "country",
+        "continent": "South America",
+        "country": "Peru"
       },
       "geometry": {
         "type": "Polygon",
@@ -14033,9 +14033,9 @@
       "id": "PHL",
       "properties": {
         "name": "Philippines",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Philippines"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Philippines"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14186,9 +14186,9 @@
       "id": "PNG",
       "properties": {
         "name": "Papua New Guinea",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "Papua New Guinea"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "Papua New Guinea"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14298,9 +14298,9 @@
       "id": "POL",
       "properties": {
         "name": "Poland",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Poland"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Poland"
       },
       "geometry": {
         "type": "Polygon",
@@ -14360,9 +14360,9 @@
       "id": "PRI",
       "properties": {
         "name": "Puerto Rico",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Puerto Rico"
+        "type": "country",
+        "continent": "North America",
+        "country": "Puerto Rico"
       },
       "geometry": {
         "type": "Polygon",
@@ -14386,9 +14386,9 @@
       "id": "PRK",
       "properties": {
         "name": "North Korea",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "North Korea"
+        "type": "country",
+        "continent": "Asia",
+        "country": "North Korea"
       },
       "geometry": {
         "type": "Polygon",
@@ -14446,9 +14446,9 @@
       "id": "PRT",
       "properties": {
         "name": "Portugal",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Portugal"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Portugal"
       },
       "geometry": {
         "type": "Polygon",
@@ -14496,9 +14496,9 @@
       "id": "PRY",
       "properties": {
         "name": "Paraguay",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Paraguay"
+        "type": "country",
+        "continent": "South America",
+        "country": "Paraguay"
       },
       "geometry": {
         "type": "Polygon",
@@ -14546,9 +14546,9 @@
       "id": "QAT",
       "properties": {
         "name": "Qatar",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Qatar"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Qatar"
       },
       "geometry": {
         "type": "Polygon",
@@ -14572,9 +14572,9 @@
       "id": "ROU",
       "properties": {
         "name": "Romania",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Romania"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Romania"
       },
       "geometry": {
         "type": "Polygon",
@@ -14633,9 +14633,9 @@
       "id": "RUS",
       "properties": {
         "name": "Russia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Russia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Russia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15298,9 +15298,9 @@
       "id": "RWA",
       "properties": {
         "name": "Rwanda",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Rwanda"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Rwanda"
       },
       "geometry": {
         "type": "Polygon",
@@ -15328,9 +15328,9 @@
       "id": "ESH",
       "properties": {
         "name": "Western Sahara",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Western Sahara"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Western Sahara"
       },
       "geometry": {
         "type": "Polygon",
@@ -15373,9 +15373,9 @@
       "id": "SAU",
       "properties": {
         "name": "Saudi Arabia",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Saudi Arabia"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Saudi Arabia"
       },
       "geometry": {
         "type": "Polygon",
@@ -15466,9 +15466,9 @@
       "id": "SDN",
       "properties": {
         "name": "Sudan",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Sudan"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Sudan"
       },
       "geometry": {
         "type": "Polygon",
@@ -15562,9 +15562,9 @@
       "id": "SDS",
       "properties": {
         "name": "South Sudan",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "South Sudan"
+        "type": "country",
+        "continent": "Africa",
+        "country": "South Sudan"
       },
       "geometry": {
         "type": "Polygon",
@@ -15642,9 +15642,9 @@
       "id": "SEN",
       "properties": {
         "name": "Senegal",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Senegal"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Senegal"
       },
       "geometry": {
         "type": "Polygon",
@@ -15703,9 +15703,9 @@
       "id": "SLB",
       "properties": {
         "name": "Solomon Islands",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "Solomon Islands"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "Solomon Islands"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15775,9 +15775,9 @@
       "id": "SLE",
       "properties": {
         "name": "Sierra Leone",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Sierra Leone"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Sierra Leone"
       },
       "geometry": {
         "type": "Polygon",
@@ -15814,9 +15814,9 @@
       "id": "SLV",
       "properties": {
         "name": "El Salvador",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "El Salvador"
+        "type": "country",
+        "continent": "North America",
+        "country": "El Salvador"
       },
       "geometry": {
         "type": "Polygon",
@@ -15851,9 +15851,9 @@
       "id": "SOM",
       "properties": {
         "name": "Somalia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Somalia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Somalia"
       },
       "geometry": {
         "type": "Polygon",
@@ -15930,9 +15930,9 @@
       "id": "SRB",
       "properties": {
         "name": "Republic of Serbia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Republic of Serbia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Republic of Serbia"
       },
       "geometry": {
         "type": "Polygon",
@@ -15993,9 +15993,9 @@
       "id": "SUR",
       "properties": {
         "name": "Suriname",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Suriname"
+        "type": "country",
+        "continent": "South America",
+        "country": "Suriname"
       },
       "geometry": {
         "type": "Polygon",
@@ -16036,9 +16036,9 @@
       "id": "SVK",
       "properties": {
         "name": "Slovakia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Slovakia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Slovakia"
       },
       "geometry": {
         "type": "Polygon",
@@ -16086,9 +16086,9 @@
       "id": "SVN",
       "properties": {
         "name": "Slovenia",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Slovenia"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Slovenia"
       },
       "geometry": {
         "type": "Polygon",
@@ -16121,9 +16121,9 @@
       "id": "SWE",
       "properties": {
         "name": "Sweden",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Sweden"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Sweden"
       },
       "geometry": {
         "type": "Polygon",
@@ -16178,9 +16178,9 @@
       "id": "SWZ",
       "properties": {
         "name": "Swaziland",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Swaziland"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Swaziland"
       },
       "geometry": {
         "type": "Polygon",
@@ -16206,9 +16206,9 @@
       "id": "SYR",
       "properties": {
         "name": "Syria",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Syria"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Syria"
       },
       "geometry": {
         "type": "Polygon",
@@ -16250,9 +16250,9 @@
       "id": "TCD",
       "properties": {
         "name": "Chad",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Chad"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Chad"
       },
       "geometry": {
         "type": "Polygon",
@@ -16325,9 +16325,9 @@
       "id": "TGO",
       "properties": {
         "name": "Togo",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Togo"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Togo"
       },
       "geometry": {
         "type": "Polygon",
@@ -16361,9 +16361,9 @@
       "id": "THA",
       "properties": {
         "name": "Thailand",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Thailand"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Thailand"
       },
       "geometry": {
         "type": "Polygon",
@@ -16442,9 +16442,9 @@
       "id": "TJK",
       "properties": {
         "name": "Tajikistan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Tajikistan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Tajikistan"
       },
       "geometry": {
         "type": "Polygon",
@@ -16500,9 +16500,9 @@
       "id": "TKM",
       "properties": {
         "name": "Turkmenistan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Turkmenistan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Turkmenistan"
       },
       "geometry": {
         "type": "Polygon",
@@ -16571,9 +16571,9 @@
       "id": "TLS",
       "properties": {
         "name": "East Timor",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "East Timor"
+        "type": "country",
+        "continent": "Asia",
+        "country": "East Timor"
       },
       "geometry": {
         "type": "Polygon",
@@ -16599,9 +16599,9 @@
       "id": "TTO",
       "properties": {
         "name": "Trinidad and Tobago",
-        "type": "Country",
-        "Continent": "North America",
-        "Country": "Trinidad and Tobago"
+        "type": "country",
+        "continent": "North America",
+        "country": "Trinidad and Tobago"
       },
       "geometry": {
         "type": "Polygon",
@@ -16624,9 +16624,9 @@
       "id": "TUN",
       "properties": {
         "name": "Tunisia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Tunisia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Tunisia"
       },
       "geometry": {
         "type": "Polygon",
@@ -16672,9 +16672,9 @@
       "id": "TUR",
       "properties": {
         "name": "Turkey",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Turkey"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Turkey"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16762,9 +16762,9 @@
       "id": "TWN",
       "properties": {
         "name": "Taiwan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Taiwan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Taiwan"
       },
       "geometry": {
         "type": "Polygon",
@@ -16788,9 +16788,9 @@
       "id": "TZA",
       "properties": {
         "name": "United Republic of Tanzania",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "United Republic of Tanzania"
+        "type": "country",
+        "continent": "Africa",
+        "country": "United Republic of Tanzania"
       },
       "geometry": {
         "type": "Polygon",
@@ -16854,9 +16854,9 @@
       "id": "UGA",
       "properties": {
         "name": "Uganda",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Uganda"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Uganda"
       },
       "geometry": {
         "type": "Polygon",
@@ -16898,9 +16898,9 @@
       "id": "UKR",
       "properties": {
         "name": "Ukraine",
-        "type": "Country",
-        "Continent": "Europe",
-        "Country": "Ukraine"
+        "type": "country",
+        "continent": "Europe",
+        "country": "Ukraine"
       },
       "geometry": {
         "type": "Polygon",
@@ -17013,9 +17013,9 @@
       "id": "URY",
       "properties": {
         "name": "Uruguay",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Uruguay"
+        "type": "country",
+        "continent": "South America",
+        "country": "Uruguay"
       },
       "geometry": {
         "type": "Polygon",
@@ -17051,9 +17051,9 @@
       "id": "UZB",
       "properties": {
         "name": "Uzbekistan",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Uzbekistan"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Uzbekistan"
       },
       "geometry": {
         "type": "Polygon",
@@ -17122,9 +17122,9 @@
       "id": "VEN",
       "properties": {
         "name": "Venezuela",
-        "type": "Country",
-        "Continent": "South America",
-        "Country": "Venezuela"
+        "type": "country",
+        "continent": "South America",
+        "country": "Venezuela"
       },
       "geometry": {
         "type": "Polygon",
@@ -17231,9 +17231,9 @@
       "id": "VNM",
       "properties": {
         "name": "Vietnam",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Vietnam"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Vietnam"
       },
       "geometry": {
         "type": "Polygon",
@@ -17292,9 +17292,9 @@
       "id": "VUT",
       "properties": {
         "name": "Vanuatu",
-        "type": "Country",
-        "Continent": "Oceania",
-        "Country": "Vanuatu"
+        "type": "country",
+        "continent": "Oceania",
+        "country": "Vanuatu"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17327,9 +17327,9 @@
       "id": "PSE",
       "properties": {
         "name": "West Bank",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "West Bank"
+        "type": "country",
+        "continent": "Asia",
+        "country": "West Bank"
       },
       "geometry": {
         "type": "Polygon",
@@ -17353,9 +17353,9 @@
       "id": "YEM",
       "properties": {
         "name": "Yemen",
-        "type": "Country",
-        "Continent": "Asia",
-        "Country": "Yemen"
+        "type": "country",
+        "continent": "Asia",
+        "country": "Yemen"
       },
       "geometry": {
         "type": "Polygon",
@@ -17414,9 +17414,9 @@
       "id": "ZAF",
       "properties": {
         "name": "South Africa",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "South Africa"
+        "type": "country",
+        "continent": "Africa",
+        "country": "South Africa"
       },
       "geometry": {
         "type": "Polygon",
@@ -17527,9 +17527,9 @@
       "id": "ZMB",
       "properties": {
         "name": "Zambia",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Zambia"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Zambia"
       },
       "geometry": {
         "type": "Polygon",
@@ -17605,9 +17605,9 @@
       "id": "ZWE",
       "properties": {
         "name": "Zimbabwe",
-        "type": "Country",
-        "Continent": "Africa",
-        "Country": "Zimbabwe"
+        "type": "country",
+        "continent": "Africa",
+        "country": "Zimbabwe"
       },
       "geometry": {
         "type": "Polygon",
