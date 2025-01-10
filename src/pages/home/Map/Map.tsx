@@ -43,8 +43,6 @@ export const Map = () => {
     const featureType = feature.getProperty('type') as string
     const featureContinent = feature.getProperty('continent') as string
     const featureCountry = feature.getProperty('country') as string
-    console.log('featureCountry', featureCountry)
-    console.log('feautreContinent:', featureContinent)
 
     setSelectedFeatures((prevSelectedFeatures: selectedFeatures) => {
       const featureIndex = prevSelectedFeatures.ids.indexOf(featureId)
@@ -111,7 +109,7 @@ export const Map = () => {
       } else {
         if (featureContinent) newContinents.add(featureContinent)
         if (featureCountry) newCountries.add(featureCountry)
-        if (featureType === 'State') newStates.add(featureName)
+        if (featureType === 'state') newStates.add(featureName)
 
         map.data.overrideStyle(feature, {
           fillColor: '#2E6F40',
