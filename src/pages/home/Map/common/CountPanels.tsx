@@ -37,15 +37,15 @@ export const CountPanels = ({
           const properties = feature?.properties ?? {}
           const featureType = properties?.type
           const name = properties?.name
-          const continent = properties.Continent
+          const continent = properties.continent
           if (continent) {
             continents.add(continent)
           }
-          const country = properties.Country
+          const country = properties.country
           if (country) {
             countries.add(country)
           }
-          if (featureType === 'State') {
+          if (featureType === 'state') {
             states.add(name)
           }
         }
