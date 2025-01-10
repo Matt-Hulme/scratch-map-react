@@ -7,7 +7,7 @@
       "properties": {
         "name": "Alabama",
         "density": 94.65,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -58,7 +58,7 @@
       "properties": {
         "name": "Alaska",
         "density": 1.264,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1304,7 +1304,7 @@
       "properties": {
         "name": "Arizona",
         "density": 57.05,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1354,7 +1354,7 @@
       "properties": {
         "name": "Arkansas",
         "density": 56.43,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1409,7 +1409,7 @@
       "properties": {
         "name": "California",
         "density": 241.7,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1520,7 +1520,7 @@
       "properties": {
         "name": "Colorado",
         "density": 49.33,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1554,7 +1554,7 @@
       "properties": {
         "name": "Connecticut",
         "density": 739.1,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1588,7 +1588,7 @@
       "properties": {
         "name": "Delaware",
         "density": 464.3,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1619,7 +1619,7 @@
       "properties": {
         "name": "District of Columbia",
         "density": 10065,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1642,7 +1642,7 @@
       "properties": {
         "name": "Florida",
         "density": 353.4,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1738,7 +1738,7 @@
       "properties": {
         "name": "Georgia",
         "density": 169.5,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1807,7 +1807,7 @@
       "properties": {
         "name": "Hawaii",
         "density": 214.1,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1892,7 +1892,7 @@
       "properties": {
         "name": "Idaho",
         "density": 19.15,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -1976,7 +1976,7 @@
       "properties": {
         "name": "Illinois",
         "density": 231.5,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2061,7 +2061,7 @@
       "properties": {
         "name": "Indiana",
         "density": 181.7,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2125,7 +2125,7 @@
       "properties": {
         "name": "Iowa",
         "density": 54.81,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2193,7 +2193,7 @@
       "properties": {
         "name": "Kansas",
         "density": 35.09,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2224,7 +2224,7 @@
       "properties": {
         "name": "Kentucky",
         "density": 110,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2317,7 +2317,7 @@
       "properties": {
         "name": "Louisiana",
         "density": 105,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2411,7 +2411,7 @@
       "properties": {
         "name": "Maine",
         "density": 43.04,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2495,7 +2495,7 @@
       "properties": {
         "name": "Maryland",
         "density": 596.3,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2583,7 +2583,7 @@
       "properties": {
         "name": "Massachusetts",
         "density": 840.2,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2636,7 +2636,7 @@
       "properties": {
         "name": "Michigan",
         "density": 173.9,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2820,7 +2820,7 @@
       "properties": {
         "name": "Minnesota",
         "density": 67.14,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2921,7 +2921,7 @@
       "properties": {
         "name": "Mississippi",
         "density": 63.5,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -2985,7 +2985,7 @@
       "properties": {
         "name": "Missouri",
         "density": 87.26,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3056,7 +3056,7 @@
       "properties": {
         "name": "Montana",
         "density": 6.858,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3126,7 +3126,7 @@
       "properties": {
         "name": "Nebraska",
         "density": 23.97,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3173,7 +3173,7 @@
       "properties": {
         "name": "Nevada",
         "density": 24.8,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3212,7 +3212,7 @@
       "properties": {
         "name": "New Hampshire",
         "density": 147,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3258,7 +3258,7 @@
       "properties": {
         "name": "New Jersey",
         "density": 1189,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3308,7 +3308,7 @@
       "properties": {
         "name": "New Mexico",
         "density": 17.16,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3343,7 +3343,7 @@
       "properties": {
         "name": "New York",
         "density": 412.3,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3429,7 +3429,7 @@
       "properties": {
         "name": "North Carolina",
         "density": 198.2,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3508,7 +3508,7 @@
       "properties": {
         "name": "North Dakota",
         "density": 9.916,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3542,7 +3542,7 @@
       "properties": {
         "name": "Ohio",
         "density": 281.9,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3607,7 +3607,7 @@
       "properties": {
         "name": "Oklahoma",
         "density": 55.22,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3670,7 +3670,7 @@
       "properties": {
         "name": "Oregon",
         "density": 40.33,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3744,7 +3744,7 @@
       "properties": {
         "name": "Pennsylvania",
         "density": 284.3,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3795,7 +3795,7 @@
       "properties": {
         "name": "Rhode Island",
         "density": 1006,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3834,7 +3834,7 @@
       "properties": {
         "name": "South Carolina",
         "density": 155.4,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3896,7 +3896,7 @@
       "properties": {
         "name": "South Dakota",
         "density": 98.07,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -3943,7 +3943,7 @@
       "properties": {
         "name": "Tennessee",
         "density": 88.08,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4004,7 +4004,7 @@
       "properties": {
         "name": "Texas",
         "density": 98.07,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4174,7 +4174,7 @@
       "properties": {
         "name": "Utah",
         "density": 34.3,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4204,7 +4204,7 @@
       "properties": {
         "name": "Vermont",
         "density": 67.73,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4250,7 +4250,7 @@
       "properties": {
         "name": "Virginia",
         "density": 204.5,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4358,7 +4358,7 @@
       "properties": {
         "name": "Washington",
         "density": 102.6,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4458,7 +4458,7 @@
       "properties": {
         "name": "West Virginia",
         "density": 77.06,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4541,7 +4541,7 @@
       "properties": {
         "name": "Wisconsin",
         "density": 105.2,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4634,7 +4634,7 @@
       "properties": {
         "name": "Wyoming",
         "density": 5.851,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },
@@ -4665,7 +4665,7 @@
       "properties": {
         "name": "Puerto Rico",
         "density": 1082,
-        "type": "State",
+        "type": "state",
         "country": "United States of America",
         "continent": "North America"
       },

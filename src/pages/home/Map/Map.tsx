@@ -41,8 +41,8 @@ export const Map = () => {
     const featureId = feature.getId() as string
     const featureName = feature.getProperty('name') as string
     const featureType = feature.getProperty('type') as string
-    const featureContinent = feature.getProperty('Continent') as string
-    const featureCountry = feature.getProperty('Country') as string
+    const featureContinent = feature.getProperty('continent') as string
+    const featureCountry = feature.getProperty('country') as string
 
     setSelectedFeatures((prevSelectedFeatures: selectedFeatures) => {
       const featureIndex = prevSelectedFeatures.ids.indexOf(featureId)
@@ -59,7 +59,7 @@ export const Map = () => {
             const stateFeature = map.data.getFeatureById(stateId)
             return (
               stateFeature &&
-              stateFeature.getProperty('Country') === featureCountry &&
+              stateFeature.getProperty('country') === featureCountry &&
               stateFeature.getProperty('name') !== featureName
             )
           }
@@ -74,8 +74,8 @@ export const Map = () => {
             const countryFeature = map.data.getFeatureById(countryId)
             return (
               countryFeature &&
-              countryFeature.getProperty('Continent') === featureContinent &&
-              countryFeature.getProperty('Country') !== featureCountry
+              countryFeature.getProperty('continent') === featureContinent &&
+              countryFeature.getProperty('country') !== featureCountry
             )
           }
         )
@@ -85,7 +85,7 @@ export const Map = () => {
             const stateFeature = map.data.getFeatureById(stateId)
             return (
               stateFeature &&
-              stateFeature.getProperty('Continent') === featureContinent &&
+              stateFeature.getProperty('continent') === featureContinent &&
               stateFeature.getProperty('name') !== featureName
             )
           }
@@ -109,7 +109,7 @@ export const Map = () => {
       } else {
         if (featureContinent) newContinents.add(featureContinent)
         if (featureCountry) newCountries.add(featureCountry)
-        if (featureType === 'State') newStates.add(featureName)
+        if (featureType === 'state') newStates.add(featureName)
 
         map.data.overrideStyle(feature, {
           fillColor: '#2E6F40',
